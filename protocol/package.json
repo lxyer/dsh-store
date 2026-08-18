@@ -1,0 +1,35 @@
+{
+  "name": "@dsh-store/protocol",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "description": "JSON Schema and validators for the DSH Store open protocol.",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./schemas/*.json": "./schemas/*.json"
+  },
+  "files": [
+    "dist",
+    "schemas",
+    "examples"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepack": "pnpm build",
+    "test": "tsc -p tsconfig.json && node --test dist/*.test.js"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: "github:dsh-store/fixture-client-only"
+publisher: dsh-store
+npmName: "@dsh-store/fixture-client-only"
+title:
+  zh: 仅 client 反例
+  en: Client-only fixture
+description:
+  zh: 只有 dsh.client、没有 dsh.bundle。装进 profile 只能标 inert。
+  en: "Has dsh.client only, no dsh.bundle. Installing it into a profile must yield inert."
+fetchedAt: "2026-08-17T05:03:06Z"
+awesomeCategory: dev
+trustState: screened
+sources:
+  - author_pr
+stars:
+  count: 0
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: fixture
+repository: "https://github.com/dsh-store/fixture-client-only"
+license: MIT
+versions:
+  - id: "npm:@dsh-store/fixture-client-only@0.0.1"
+    pluginId: "github:dsh-store/fixture-client-only"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: false
+    hasClient: true
+    lifecycleScripts: []
+    passportId: "passport:npm:@dsh-store/fixture-client-only@0.0.1:scanner-2"
+    capabilityClaims:
+      - cap.seam.clientModules
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - web
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:dsh-store/fixture-client-only"
+      versionId: "npm:@dsh-store/fixture-client-only@0.0.1"
+      packageName: "@dsh-store/fixture-client-only"
+      subpath: null
+      profile: web
+      requiresBuildPermission: false
+      expectedBundle: false
+      passportId: "passport:npm:@dsh-store/fixture-client-only@0.0.1:scanner-2"
+      lockedSpec: "@dsh-store/fixture-client-only@0.0.1"
+defaultVersionId: "npm:@dsh-store/fixture-client-only@0.0.1"

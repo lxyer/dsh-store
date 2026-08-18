@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://store.dsh.dev/protocol/plugin.json",
+  "title": "Plugin",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "publisher",
+    "title",
+    "description",
+    "trustState",
+    "sources",
+    "versions"
+  ],
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "id": { "$ref": "ids.json#/$defs/pluginId" },
+    "publisher": { "type": "string", "minLength": 1 },
+    "npmName": { "type": "string" },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "title": { "$ref": "ids.json#/$defs/bilingual" },
+    "description": { "$ref": "ids.json#/$defs/bilingual" },
+    "readmeExcerpt": { "$ref": "ids.json#/$defs/bilingual" },
+    "fetchedAt": { "type": "string", "format": "date-time" },
+    "sourceCommit": { "type": "string", "pattern": "^[a-f0-9]{7,40}$" },
+    "awesomeCategory": {
+      "type": "string",
+      "enum": [
+        "ui",
+        "usage",
+        "theme",
+        "model",
+        "session",
+        "memory",
+        "tools",
+        "vision",
+        "skill",
+        "workflow",
+        "notify",
+        "dev",
+        "market",
+        "fun"
+      ]
+    },
+    "scenes": {
+      "type": "array",
+      "items": { "$ref": "ids.json#/$defs/capabilityId" }
+    },
+    "trustState": { "$ref": "ids.json#/$defs/trustState" },
+    "blockedReason": { "$ref": "ids.json#/$defs/bilingual" },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "ids.json#/$defs/sourceKind" }
+    },
+    "stars": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["count", "fetchedAt", "source"],
+      "properties": {
+        "count": { "type": "integer", "minimum": 0 },
+        "fetchedAt": { "type": "string", "format": "date-time" },
+        "source": { "type": "string", "minLength": 1 }
+      }
+    },
+    "homepage": { "type": "string" },
+    "repository": { "type": "string" },
+    "license": { "type": "string" },
+    "defaultVersionId": { "$ref": "ids.json#/$defs/versionId" },
+    "versions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "plugin-version.json" }
+    },
+    "promotion": {
+      "type": ["object", "null"],
+      "description": "Commercial placement. Must never mutate trustState, rating, or passport."
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "trustState": { "const": "blocked" } }
+      },
+      "then": { "required": ["blockedReason"] }
+    }
+  ]
+}

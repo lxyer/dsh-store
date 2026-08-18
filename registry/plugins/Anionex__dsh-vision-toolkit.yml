@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: "github:Anionex/dsh-vision-toolkit"
+publisher: Anionex
+npmName: "@anionex/dsh-vision-toolkit"
+title:
+  zh: Vision Toolkit
+  en: Vision Toolkit
+description:
+  zh: 让纯文本模型更好地做视觉任务：带意图的图片问答、长截图 OCR、UI 还原等。
+  en: "Vision tasks for text-only models: intent-aware image Q&A, long-screenshot OCR, UI reproduction, grounding, and pixel diff."
+fetchedAt: "2026-08-17T05:03:06Z"
+awesomeCategory: vision
+scenes:
+  - cap.scene.we-media
+trustState: featured
+sources:
+  - curated
+stars:
+  count: 560
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: "awesome-dsh-plugin.com/plugins.json@2026-08-17"
+repository: "https://github.com/Anionex/dsh-vision-toolkit"
+license: MIT
+versions:
+  - id: "npm:@anionex/dsh-vision-toolkit@0.1.18"
+    pluginId: "github:Anionex/dsh-vision-toolkit"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: true
+    hasClient: true
+    lifecycleScripts: []
+    passportId: "passport:npm:@anionex/dsh-vision-toolkit@0.1.18:scanner-2"
+    capabilityClaims:
+      - cap.product.vision
+      - cap.seam.skills
+      - cap.seam.tools
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - web
+      desktop: unknown
+      testedDsh:
+        - 0.1.0-rc.5
+    installTarget:
+      pluginId: "github:Anionex/dsh-vision-toolkit"
+      versionId: "npm:@anionex/dsh-vision-toolkit@0.1.18"
+      packageName: "@anionex/dsh-vision-toolkit"
+      subpath: null
+      integrity: "sha512-BHCKRbUVlASegV8W1AFX+QuSRGp+xDZIF4foJR63o4o920WUAYgbpI1kfksUq6IGvN1NjGOLpmYs6Wj57fPNCw=="
+      profile: web
+      requiresBuildPermission: false
+      expectedBundle: true
+      passportId: "passport:npm:@anionex/dsh-vision-toolkit@0.1.18:scanner-2"
+      lockedSpec: "@anionex/dsh-vision-toolkit@0.1.18"
+defaultVersionId: "npm:@anionex/dsh-vision-toolkit@0.1.18"

@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: "github:54xkeee/dsh-vision"
+publisher: 54xkeee
+npmName: dsh-vision-web
+title:
+  zh: dsh-vision
+  en: dsh-vision
+description:
+  zh: 另一款视觉插件。本机已覆盖视觉能力时不得作为默认推荐。
+  en: Another vision plugin. Must not be the default recommendation when vision is already covered.
+fetchedAt: "2026-08-17T05:03:06Z"
+awesomeCategory: vision
+trustState: screened
+sources:
+  - curated
+stars:
+  count: 4
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: "awesome-dsh-plugin.com/plugins.json@2026-08-17"
+repository: "https://github.com/54xkeee/dsh-vision"
+license: MIT
+versions:
+  - id: "npm:dsh-vision-web@0.0.1"
+    pluginId: "github:54xkeee/dsh-vision"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: true
+    hasClient: false
+    lifecycleScripts: []
+    passportId: "passport:npm:dsh-vision-web@0.0.1:scanner-2"
+    capabilityClaims:
+      - cap.product.vision
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - web
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:54xkeee/dsh-vision"
+      versionId: "npm:dsh-vision-web@0.0.1"
+      packageName: dsh-vision-web
+      subpath: null
+      profile: web
+      requiresBuildPermission: false
+      expectedBundle: true
+      passportId: "passport:npm:dsh-vision-web@0.0.1:scanner-2"
+      lockedSpec: "dsh-vision-web@0.0.1"
+defaultVersionId: "npm:dsh-vision-web@0.0.1"

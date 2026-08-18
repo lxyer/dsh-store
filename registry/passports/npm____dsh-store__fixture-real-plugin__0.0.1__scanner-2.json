@@ -1,0 +1,39 @@
+{
+  "id": "passport:npm:@dsh-store/fixture-real-plugin@0.0.1:scanner-2",
+  "pluginId": "github:dsh-store/fixture-monorepo#packages/real-plugin",
+  "versionId": "npm:@dsh-store/fixture-real-plugin@0.0.1",
+  "scannerVersion": 2,
+  "checkedAt": "2026-08-17T05:03:06Z",
+  "trustState": "installable",
+  "manifest": {
+    "hasBundle": true,
+    "hasClient": false,
+    "packageName": "@dsh-store/fixture-real-plugin",
+    "subpath": "packages/real-plugin"
+  },
+  "license": {
+    "spdx": "MIT",
+    "file": "LICENSE"
+  },
+  "lifecycleScripts": [],
+  "signals": {
+    "network": [],
+    "fs": [],
+    "credentials": [],
+    "dynamicEval": [],
+    "uiHijack": []
+  },
+  "compatibility": {
+    "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+    "profiles": [
+      "web"
+    ],
+    "desktop": "unknown"
+  },
+  "filesInspected": [
+    "package.json",
+    "cordis.patch.yml"
+  ],
+  "findings": [],
+  "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+}

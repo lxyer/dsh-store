@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: "github:dsh-store/fixture-monorepo#packages/real-plugin"
+publisher: dsh-store
+npmName: "@dsh-store/fixture-real-plugin"
+title:
+  zh: monorepo 子包正例
+  en: Monorepo subpath fixture
+description:
+  zh: 必须按 subpath 安装，不能装 monorepo 根。
+  en: "Must install the subpath package, never the monorepo root."
+fetchedAt: "2026-08-17T05:03:06Z"
+awesomeCategory: dev
+trustState: installable
+sources:
+  - author_pr
+stars:
+  count: 0
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: fixture
+repository: "https://github.com/dsh-store/fixture-monorepo"
+license: MIT
+versions:
+  - id: "npm:@dsh-store/fixture-real-plugin@0.0.1"
+    pluginId: "github:dsh-store/fixture-monorepo#packages/real-plugin"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: true
+    hasClient: false
+    lifecycleScripts: []
+    passportId: "passport:npm:@dsh-store/fixture-real-plugin@0.0.1:scanner-2"
+    capabilityClaims:
+      - cap.seam.tools
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - web
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:dsh-store/fixture-monorepo#packages/real-plugin"
+      versionId: "npm:@dsh-store/fixture-real-plugin@0.0.1"
+      packageName: "@dsh-store/fixture-real-plugin"
+      subpath: packages/real-plugin
+      profile: web
+      requiresBuildPermission: true
+      expectedBundle: true
+      passportId: "passport:npm:@dsh-store/fixture-real-plugin@0.0.1:scanner-2"
+      lockedSpec: "@dsh-store/fixture-real-plugin@0.0.1"
+defaultVersionId: "npm:@dsh-store/fixture-real-plugin@0.0.1"

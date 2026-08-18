@@ -1,0 +1,51 @@
+{
+  "id": "passport:npm:@linxin666/dsh-web-ui-all@0.0.0:scanner-2",
+  "pluginId": "github:linxin666/dsh-web-ui-all",
+  "versionId": "npm:@linxin666/dsh-web-ui-all@0.0.0",
+  "scannerVersion": 2,
+  "checkedAt": "2026-08-17T05:03:06Z",
+  "trustState": "blocked",
+  "manifest": {
+    "hasBundle": true,
+    "hasClient": true,
+    "packageName": "@linxin666/dsh-web-ui-all",
+    "subpath": null
+  },
+  "license": {
+    "spdx": null,
+    "file": "LICENSE"
+  },
+  "lifecycleScripts": [],
+  "signals": {
+    "network": [],
+    "fs": [],
+    "credentials": [],
+    "dynamicEval": [],
+    "uiHijack": [
+      "settings.section",
+      "global-css"
+    ]
+  },
+  "compatibility": {
+    "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+    "profiles": [
+      "web"
+    ],
+    "desktop": "unknown"
+  },
+  "filesInspected": [
+    "package.json",
+    "cordis.patch.yml"
+  ],
+  "findings": [
+    {
+      "id": "ui-hijack",
+      "severity": "high",
+      "label": {
+        "zh": "劫持官方设置外壳",
+        "en": "Hijacks the official Settings chrome"
+      }
+    }
+  ],
+  "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+}

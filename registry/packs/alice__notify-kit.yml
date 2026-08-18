@@ -1,0 +1,19 @@
+id: "pack:alice/notify-kit"
+version: 0.1.0
+title:
+  zh: 通知工具包
+  en: Notify kit
+description:
+  zh: 社区包示例。只含已经 installable 的通知插件。
+  en: Community pack example. Only the already installable notify plugin.
+kind: community
+profileTarget: web
+entries:
+  - ref: "github:renpengfei1027/dsh-web-notify"
+    version: "npm:dsh-web-notify@0.1.4"
+    role: required
+installPolicy:
+  stopOnBlocked: true
+  requirePassport: true
+  allowCandidate: false
+completeness: complete

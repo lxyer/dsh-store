@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: "github:huiliyi37/dsh-tianshu-tui"
+publisher: huiliyi37
+npmName: "@huiliyi37/dsh-tianshu-tui"
+title:
+  zh: 天枢 TUI
+  en: Tianshu TUI
+description:
+  zh: DeepSeek Harness 的终端 UI。默认目标是 headless，不偷偷装进 web。
+  en: "A terminal UI for DeepSeek Harness. Default target is headless, never silently installed into web."
+fetchedAt: "2026-08-17T05:03:06Z"
+awesomeCategory: ui
+trustState: screened
+sources:
+  - curated
+stars:
+  count: 104
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: "plugin-hub /api/plugins@2026-08-17T00:00:55.669Z"
+repository: "https://github.com/huiliyi37/dsh-tianshu-tui"
+license: Apache-2.0
+versions:
+  - id: "npm:@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6"
+    pluginId: "github:huiliyi37/dsh-tianshu-tui"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: true
+    hasClient: false
+    lifecycleScripts: []
+    passportId: "passport:npm:@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6:scanner-2"
+    capabilityClaims:
+      - cap.product.terminal
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - headless
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:huiliyi37/dsh-tianshu-tui"
+      versionId: "npm:@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6"
+      packageName: "@huiliyi37/dsh-tianshu-tui"
+      subpath: null
+      profile: headless
+      requiresBuildPermission: false
+      expectedBundle: true
+      passportId: "passport:npm:@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6:scanner-2"
+      lockedSpec: "@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6"
+defaultVersionId: "npm:@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6"

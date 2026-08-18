@@ -1,0 +1,19 @@
+id: "pack:dsh-store/terminal-starter"
+version: 0.1.0
+title:
+  zh: 终端起步包
+  en: Terminal starter pack
+description:
+  zh: TUI 默认走 headless，不偷偷装进 web。
+  en: TUI packs default to headless and never silently install into web.
+kind: official
+profileTarget: headless
+entries:
+  - ref: "github:huiliyi37/dsh-tianshu-tui"
+    version: "npm:@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6"
+    role: required
+installPolicy:
+  stopOnBlocked: true
+  requirePassport: true
+  allowCandidate: false
+completeness: partial

@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: "github:dfkai/dsh-board"
+publisher: dfkai
+npmName: dsh-board
+title:
+  zh: dsh-board
+  en: dsh-board
+description:
+  zh: hub clear + 锁定 commit 的看板插件。
+  en: Hub-clear board plugin with a locked commit.
+fetchedAt: "2026-08-17T05:03:06Z"
+sourceCommit: 5375c0920f8a04a3208f4d70719656455113da5d
+awesomeCategory: workflow
+trustState: installable
+sources:
+  - discovered
+stars:
+  count: 0
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: "plugin-hub /api/plugins@2026-08-17T00:00:55.669Z"
+repository: "https://github.com/dfkai/dsh-board"
+license: MIT
+versions:
+  - id: "git:github.com/dfkai/dsh-board@5375c0920f8a04a3208f4d70719656455113da5d"
+    pluginId: "github:dfkai/dsh-board"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: true
+    hasClient: false
+    lifecycleScripts: []
+    passportId: "passport:git:github.com/dfkai/dsh-board@5375c0920f8a04a3208f4d70719656455113da5d:scanner-2"
+    capabilityClaims:
+      - cap.product.workflow
+      - cap.scene.office
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - web
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:dfkai/dsh-board"
+      versionId: "git:github.com/dfkai/dsh-board@5375c0920f8a04a3208f4d70719656455113da5d"
+      packageName: dsh-board
+      subpath: null
+      profile: web
+      requiresBuildPermission: false
+      expectedBundle: true
+      passportId: "passport:git:github.com/dfkai/dsh-board@5375c0920f8a04a3208f4d70719656455113da5d:scanner-2"
+      lockedSpec: "github:dfkai/dsh-board#5375c0920f8a04a3208f4d70719656455113da5d"
+defaultVersionId: "git:github.com/dfkai/dsh-board@5375c0920f8a04a3208f4d70719656455113da5d"

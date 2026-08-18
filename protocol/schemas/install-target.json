@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://store.dsh.dev/protocol/install-target.json",
+  "title": "InstallTarget",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "pluginId",
+    "versionId",
+    "packageName",
+    "profile",
+    "expectedBundle",
+    "requiresBuildPermission"
+  ],
+  "properties": {
+    "pluginId": { "$ref": "ids.json#/$defs/pluginId" },
+    "versionId": { "$ref": "ids.json#/$defs/versionId" },
+    "packageName": { "type": "string", "minLength": 1 },
+    "subpath": { "type": ["string", "null"] },
+    "integrity": { "$ref": "ids.json#/$defs/integrity" },
+    "profile": { "type": "string", "minLength": 1 },
+    "requiresBuildPermission": { "type": "boolean" },
+    "expectedBundle": { "type": "boolean" },
+    "passportId": { "$ref": "ids.json#/$defs/passportId" },
+    "tarballUrl": {
+      "type": "string",
+      "pattern": "^https://.+"
+    },
+    "lockedSpec": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Exact spec passed to `dsh plugin --profile <name> add`."
+    }
+  },
+  "not": {
+    "anyOf": [
+      { "properties": { "versionId": { "pattern": "@latest$" } } },
+      { "properties": { "versionId": { "pattern": "@next$" } } },
+      { "properties": { "lockedSpec": { "pattern": "@latest(\\s|$)" } } },
+      { "properties": { "lockedSpec": { "pattern": "#(main|master|HEAD)$" } } }
+    ]
+  }
+}

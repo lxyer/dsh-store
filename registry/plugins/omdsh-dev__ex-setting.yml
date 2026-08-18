@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: "github:omdsh-dev/ex-setting"
+publisher: omdsh-dev
+npmName: "@deepseek-ai/dsh-ex-setting"
+title:
+  zh: ex-setting
+  en: ex-setting
+description:
+  zh: hub 给出锁定 commit 但仍标 review 的设置扩展。
+  en: Settings extension with a locked commit that hub still marks as review.
+fetchedAt: "2026-08-17T05:03:06Z"
+sourceCommit: 46130b8d5f0c3784cb1325412fea0b116b37e9ae
+awesomeCategory: dev
+trustState: review_required
+sources:
+  - discovered
+stars:
+  count: 0
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: "plugin-hub /api/plugins@2026-08-17T00:00:55.669Z"
+repository: "https://github.com/omdsh-dev/ex-setting"
+versions:
+  - id: "git:github.com/omdsh-dev/ex-setting@46130b8d5f0c3784cb1325412fea0b116b37e9ae"
+    pluginId: "github:omdsh-dev/ex-setting"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: true
+    hasClient: false
+    lifecycleScripts: []
+    passportId: "passport:git:github.com/omdsh-dev/ex-setting@46130b8d5f0c3784cb1325412fea0b116b37e9ae:scanner-2"
+    capabilityClaims:
+      - cap.seam.settings
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - web
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:omdsh-dev/ex-setting"
+      versionId: "git:github.com/omdsh-dev/ex-setting@46130b8d5f0c3784cb1325412fea0b116b37e9ae"
+      packageName: "@deepseek-ai/dsh-ex-setting"
+      subpath: null
+      profile: web
+      requiresBuildPermission: false
+      expectedBundle: true
+      passportId: "passport:git:github.com/omdsh-dev/ex-setting@46130b8d5f0c3784cb1325412fea0b116b37e9ae:scanner-2"
+      lockedSpec: "github:omdsh-dev/ex-setting#46130b8d5f0c3784cb1325412fea0b116b37e9ae"
+defaultVersionId: "git:github.com/omdsh-dev/ex-setting@46130b8d5f0c3784cb1325412fea0b116b37e9ae"

@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: "github:zhu1090093659/dsh-web-ui"
+publisher: zhu1090093659
+npmName: dsh-web-ui
+title:
+  zh: dsh-web-ui monorepo 根
+  en: dsh-web-ui monorepo root
+description:
+  zh: 皮肤合集 monorepo 根目录。不能把根目录当成可安装目标。
+  en: Skin-collection monorepo root. The root must never be an install target.
+fetchedAt: "2026-08-17T05:03:06Z"
+awesomeCategory: ui
+trustState: blocked
+blockedReason:
+  zh: monorepo 根没有有效 dsh.bundle，装根会装错子包。
+  en: Monorepo root has no valid dsh.bundle; installing the root installs the wrong package.
+sources:
+  - curated
+stars:
+  count: 1312
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: "plugin-hub /api/plugins@2026-08-17T00:00:55.669Z"
+repository: "https://github.com/zhu1090093659/dsh-web-ui"
+versions:
+  - id: "npm:dsh-web-ui@0.1.1"
+    pluginId: "github:zhu1090093659/dsh-web-ui"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: false
+    hasClient: false
+    lifecycleScripts: []
+    passportId: "passport:npm:dsh-web-ui@0.1.1:scanner-2"
+    capabilityClaims:
+      - cap.product.theme
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - web
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:zhu1090093659/dsh-web-ui"
+      versionId: "npm:dsh-web-ui@0.1.1"
+      packageName: dsh-web-ui
+      subpath: null
+      profile: web
+      requiresBuildPermission: false
+      expectedBundle: false
+      passportId: "passport:npm:dsh-web-ui@0.1.1:scanner-2"
+      lockedSpec: "dsh-web-ui@0.1.1"
+defaultVersionId: "npm:dsh-web-ui@0.1.1"

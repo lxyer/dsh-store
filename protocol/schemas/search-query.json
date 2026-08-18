@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://store.dsh.dev/protocol/search-query.json",
+  "title": "SearchQuery",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "q": { "type": "string" },
+    "category": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "scene": {
+      "type": "array",
+      "items": { "$ref": "ids.json#/$defs/capabilityId" }
+    },
+    "capability": {
+      "type": "array",
+      "items": { "$ref": "ids.json#/$defs/capabilityId" }
+    },
+    "trustState": {
+      "type": "array",
+      "items": { "$ref": "ids.json#/$defs/trustState" }
+    },
+    "risk": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["low", "medium", "high", "unknown"] }
+    },
+    "profile": { "$ref": "ids.json#/$defs/profileName" },
+    "source": {
+      "type": "array",
+      "items": { "$ref": "ids.json#/$defs/sourceKind" }
+    },
+    "sort": {
+      "type": "string",
+      "enum": ["relevance", "new", "stars", "star_growth", "rating", "install_success", "capability_fill"]
+    },
+    "page": { "type": "integer", "minimum": 1, "default": 1 },
+    "lang": { "type": "string", "enum": ["zh", "en"] }
+  }
+}

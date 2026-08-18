@@ -1,0 +1,23 @@
+{
+  "name": "@dsh-store/site",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "description": "Hao123-style public catalog for DSH Store. Discovery only; never installs remotely.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "snapshot": "tsc -p tsconfig.json && node dist/write-snapshot.js",
+    "deploy": "pnpm snapshot && npx --yes wrangler deploy",
+    "test": "tsc -p tsconfig.json && node --test dist/*.test.js"
+  },
+  "dependencies": {
+    "@dsh-store/protocol": "workspace:*",
+    "@dsh-store/registry": "workspace:*",
+    "@dsh-store/scanner": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "typescript": "^5.9.2"
+  }
+}

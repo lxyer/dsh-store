@@ -1,0 +1,57 @@
+{
+  "id": "passport:npm:@a9i5k4/dsh-auto-memory@0.1.7:scanner-2",
+  "pluginId": "github:Aik358/dsh-auto-memory",
+  "versionId": "npm:@a9i5k4/dsh-auto-memory@0.1.7",
+  "scannerVersion": 2,
+  "checkedAt": "2026-08-17T05:03:06Z",
+  "trustState": "review_required",
+  "manifest": {
+    "hasBundle": true,
+    "hasClient": true,
+    "packageName": "@a9i5k4/dsh-auto-memory",
+    "subpath": null
+  },
+  "license": {
+    "spdx": "BSD-3-Clause",
+    "file": "LICENSE"
+  },
+  "lifecycleScripts": [],
+  "signals": {
+    "network": [
+      "lib/client.js"
+    ],
+    "fs": [
+      "lib/index.js"
+    ],
+    "credentials": [
+      "lib/index.js"
+    ],
+    "dynamicEval": [],
+    "uiHijack": []
+  },
+  "compatibility": {
+    "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+    "profiles": [
+      "web"
+    ],
+    "desktop": "unknown"
+  },
+  "filesInspected": [
+    "package.json",
+    "cordis.patch.yml"
+  ],
+  "findings": [
+    {
+      "id": "filesystem-write",
+      "severity": "medium",
+      "label": {
+        "zh": "发现本地文件写入能力",
+        "en": "Local filesystem write capability signal found"
+      },
+      "files": [
+        "lib/index.js"
+      ]
+    }
+  ],
+  "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+}

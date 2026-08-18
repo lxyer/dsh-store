@@ -1,0 +1,5 @@
+# DSH Store host bundle. Inserts itself only.
+# Do not disable official plugins. Do not change themes.
+- insert:
+    - id: dsh-store
+      name: "@dsh-store/plugin"

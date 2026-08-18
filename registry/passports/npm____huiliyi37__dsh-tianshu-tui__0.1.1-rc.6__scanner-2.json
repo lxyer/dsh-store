@@ -1,0 +1,39 @@
+{
+  "id": "passport:npm:@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6:scanner-2",
+  "pluginId": "github:huiliyi37/dsh-tianshu-tui",
+  "versionId": "npm:@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6",
+  "scannerVersion": 2,
+  "checkedAt": "2026-08-17T05:03:06Z",
+  "trustState": "screened",
+  "manifest": {
+    "hasBundle": true,
+    "hasClient": false,
+    "packageName": "@huiliyi37/dsh-tianshu-tui",
+    "subpath": null
+  },
+  "license": {
+    "spdx": "Apache-2.0",
+    "file": "LICENSE"
+  },
+  "lifecycleScripts": [],
+  "signals": {
+    "network": [],
+    "fs": [],
+    "credentials": [],
+    "dynamicEval": [],
+    "uiHijack": []
+  },
+  "compatibility": {
+    "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+    "profiles": [
+      "headless"
+    ],
+    "desktop": "unknown"
+  },
+  "filesInspected": [
+    "package.json",
+    "cordis.patch.yml"
+  ],
+  "findings": [],
+  "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+}

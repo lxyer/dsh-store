@@ -1,0 +1,13 @@
+name = "dsh-store"
+main = "src/worker.ts"
+compatibility_date = "2026-08-17"
+compatibility_flags = ["nodejs_compat"]
+account_id = "cda83ff2464e168bd0a8e8eb4afff7c0"
+workers_dev = true
+
+[[routes]]
+pattern = "dsh.yibishe.com"
+custom_domain = true
+
+[triggers]
+crons = ["0 */12 * * *"]

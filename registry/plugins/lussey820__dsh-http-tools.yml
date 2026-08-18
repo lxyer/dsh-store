@@ -1,0 +1,55 @@
+schemaVersion: 1
+id: "github:lussey820/dsh-http-tools"
+publisher: lussey820
+npmName: dsh-http-tools
+title:
+  zh: HTTP Tools
+  en: HTTP Tools
+description:
+  zh: HTTP/API 调试工具集：请求、curl 解析与会话内历史。
+  en: "HTTP/API debugging toolset: requests, curl parsing, and in-session history."
+fetchedAt: "2026-08-17T05:03:06Z"
+sourceCommit: fdc1b71738ac40a9fae0a5f6c02c81f7107f0a41
+awesomeCategory: tools
+trustState: installable
+sources:
+  - discovered
+  - curated
+stars:
+  count: 0
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: "plugin-hub /api/plugins@2026-08-17T00:00:55.669Z"
+repository: "https://github.com/lussey820/dsh-http-tools"
+license: MIT
+versions:
+  - id: "git:github.com/lussey820/dsh-http-tools@fdc1b71738ac40a9fae0a5f6c02c81f7107f0a41"
+    pluginId: "github:lussey820/dsh-http-tools"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: true
+    hasClient: false
+    lifecycleScripts: []
+    passportId: "passport:git:github.com/lussey820/dsh-http-tools@fdc1b71738ac40a9fae0a5f6c02c81f7107f0a41:scanner-2"
+    capabilityClaims:
+      - cap.product.browser
+      - cap.seam.tools
+      - cap.seam.web
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - web
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:lussey820/dsh-http-tools"
+      versionId: "git:github.com/lussey820/dsh-http-tools@fdc1b71738ac40a9fae0a5f6c02c81f7107f0a41"
+      packageName: dsh-http-tools
+      subpath: null
+      integrity: "sha512-4JAxEcKk+s5/ZYmRD2jckHj8FosZdNo6M2jhAVFg2Eh5D1i8Ha+AimJJyi/HZ5EAOqZiHMnApL/5LlB2jgafSA=="
+      profile: web
+      requiresBuildPermission: false
+      expectedBundle: true
+      passportId: "passport:git:github.com/lussey820/dsh-http-tools@fdc1b71738ac40a9fae0a5f6c02c81f7107f0a41:scanner-2"
+      lockedSpec: "github:lussey820/dsh-http-tools#fdc1b71738ac40a9fae0a5f6c02c81f7107f0a41"
+defaultVersionId: "git:github.com/lussey820/dsh-http-tools@fdc1b71738ac40a9fae0a5f6c02c81f7107f0a41"

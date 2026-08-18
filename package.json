@@ -1,0 +1,23 @@
+{
+  "name": "dsh-store",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Trusted app store, capability OS, and pack distribution protocol for DeepSeek Harness.",
+  "packageManager": "pnpm@10.33.2",
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "scripts": {
+    "build": "pnpm -r --if-present build",
+    "test": "pnpm --filter @dsh-store/protocol test && pnpm --filter @dsh-store/registry test && pnpm --filter @dsh-store/scanner test && pnpm --filter @dsh-store/site test && pnpm --filter @dsh-store/plugin test",
+    "lint": "pnpm -r --if-present lint && pnpm --filter @dsh-store/registry lint:registry",
+    "validate": "pnpm --filter @dsh-store/protocol test && pnpm --filter @dsh-store/registry lint:registry && pnpm --filter @dsh-store/registry test",
+    "scan:fixtures": "pnpm --filter @dsh-store/scanner scan -- --fixtures",
+    "site:build": "pnpm --filter @dsh-store/site build",
+    "site:start": "pnpm --filter @dsh-store/site start",
+    "isolate:init": "pnpm --filter @dsh-store/plugin isolate -- init",
+    "discover": "pnpm --filter @dsh-store/scanner discover"
+  }
+}

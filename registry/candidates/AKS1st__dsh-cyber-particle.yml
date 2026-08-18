@@ -1,0 +1,49 @@
+schemaVersion: 1
+id: "github:AKS1st/dsh-cyber-particle"
+publisher: AKS1st
+title:
+  zh: Cyber Particle 主题
+  en: Cyber Particle theme
+description:
+  zh: 主题插件，自动发现进入候选，无安装按钮。主题默认互斥。
+  en: Theme plugin admitted as a candidate. No install button. Themes are mutually exclusive.
+fetchedAt: "2026-08-17T05:03:06Z"
+awesomeCategory: theme
+trustState: candidate
+sources:
+  - discovered
+stars:
+  count: 5
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: "awesome-dsh-plugin.com/plugins.json@2026-08-17"
+repository: "https://github.com/AKS1st/dsh-cyber-particle"
+license: MIT
+versions:
+  - id: "git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    pluginId: "github:AKS1st/dsh-cyber-particle"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: true
+    hasClient: false
+    lifecycleScripts: []
+    passportId: "passport:git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:scanner-2"
+    capabilityClaims:
+      - cap.product.theme
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - web
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:AKS1st/dsh-cyber-particle"
+      versionId: "git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      packageName: dsh-cyber-particle
+      subpath: null
+      profile: web
+      requiresBuildPermission: false
+      expectedBundle: true
+      passportId: "passport:git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:scanner-2"
+      lockedSpec: "github:AKS1st/dsh-cyber-particle#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+defaultVersionId: "git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"

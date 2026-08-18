@@ -1,0 +1,48 @@
+schemaVersion: 1
+id: "github:Tommy00748/dsh-theme-cyberpunk2077"
+publisher: Tommy00748
+title:
+  zh: 赛博朋克主题
+  en: Cyberpunk theme
+description:
+  zh: 另一款主题，用于互斥检测。仍是候选。
+  en: Another theme used for mutex detection. Still a candidate.
+fetchedAt: "2026-08-17T05:03:06Z"
+awesomeCategory: theme
+trustState: candidate
+sources:
+  - discovered
+stars:
+  count: 0
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: "plugin-hub topic scan@2026-08-17"
+repository: "https://github.com/Tommy00748/dsh-theme-cyberpunk2077"
+versions:
+  - id: "git:github.com/Tommy00748/dsh-theme-cyberpunk2077@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    pluginId: "github:Tommy00748/dsh-theme-cyberpunk2077"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: true
+    hasClient: false
+    lifecycleScripts: []
+    passportId: "passport:git:github.com/Tommy00748/dsh-theme-cyberpunk2077@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb:scanner-2"
+    capabilityClaims:
+      - cap.product.theme
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - web
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:Tommy00748/dsh-theme-cyberpunk2077"
+      versionId: "git:github.com/Tommy00748/dsh-theme-cyberpunk2077@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      packageName: dsh-theme-cyberpunk2077
+      subpath: null
+      profile: web
+      requiresBuildPermission: false
+      expectedBundle: true
+      passportId: "passport:git:github.com/Tommy00748/dsh-theme-cyberpunk2077@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb:scanner-2"
+      lockedSpec: "github:Tommy00748/dsh-theme-cyberpunk2077#bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+defaultVersionId: "git:github.com/Tommy00748/dsh-theme-cyberpunk2077@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"

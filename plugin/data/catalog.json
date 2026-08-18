@@ -1,0 +1,3664 @@
+{
+  "root": "registry",
+  "plugins": [
+    {
+      "schemaVersion": 1,
+      "id": "github:54xkeee/dsh-vision",
+      "publisher": "54xkeee",
+      "npmName": "dsh-vision-web",
+      "title": {
+        "zh": "dsh-vision",
+        "en": "dsh-vision"
+      },
+      "description": {
+        "zh": "另一款视觉插件。本机已覆盖视觉能力时不得作为默认推荐。",
+        "en": "Another vision plugin. Must not be the default recommendation when vision is already covered."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "awesomeCategory": "vision",
+      "trustState": "screened",
+      "sources": [
+        "curated"
+      ],
+      "stars": {
+        "count": 4,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "awesome-dsh-plugin.com/plugins.json@2026-08-17"
+      },
+      "repository": "https://github.com/54xkeee/dsh-vision",
+      "license": "MIT",
+      "versions": [
+        {
+          "id": "npm:dsh-vision-web@0.0.1",
+          "pluginId": "github:54xkeee/dsh-vision",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": false,
+          "lifecycleScripts": [],
+          "passportId": "passport:npm:dsh-vision-web@0.0.1:scanner-2",
+          "capabilityClaims": [
+            "cap.product.vision"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:54xkeee/dsh-vision",
+            "versionId": "npm:dsh-vision-web@0.0.1",
+            "packageName": "dsh-vision-web",
+            "subpath": null,
+            "profile": "web",
+            "requiresBuildPermission": false,
+            "expectedBundle": true,
+            "passportId": "passport:npm:dsh-vision-web@0.0.1:scanner-2",
+            "lockedSpec": "dsh-vision-web@0.0.1"
+          }
+        }
+      ],
+      "defaultVersionId": "npm:dsh-vision-web@0.0.1"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:AKS1st/dsh-cyber-particle",
+      "publisher": "AKS1st",
+      "title": {
+        "zh": "Cyber Particle 主题",
+        "en": "Cyber Particle theme"
+      },
+      "description": {
+        "zh": "主题插件，自动发现进入候选，无安装按钮。主题默认互斥。",
+        "en": "Theme plugin admitted as a candidate. No install button. Themes are mutually exclusive."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "awesomeCategory": "theme",
+      "trustState": "candidate",
+      "sources": [
+        "discovered"
+      ],
+      "stars": {
+        "count": 5,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "awesome-dsh-plugin.com/plugins.json@2026-08-17"
+      },
+      "repository": "https://github.com/AKS1st/dsh-cyber-particle",
+      "license": "MIT",
+      "versions": [
+        {
+          "id": "git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "pluginId": "github:AKS1st/dsh-cyber-particle",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": false,
+          "lifecycleScripts": [],
+          "passportId": "passport:git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:scanner-2",
+          "capabilityClaims": [
+            "cap.product.theme"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:AKS1st/dsh-cyber-particle",
+            "versionId": "git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "packageName": "dsh-cyber-particle",
+            "subpath": null,
+            "profile": "web",
+            "requiresBuildPermission": false,
+            "expectedBundle": true,
+            "passportId": "passport:git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:scanner-2",
+            "lockedSpec": "github:AKS1st/dsh-cyber-particle#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        }
+      ],
+      "defaultVersionId": "git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:AbcdefgXW/dsh-msg-hub",
+      "publisher": "AbcdefgXW",
+      "npmName": "dsh-msg-hub",
+      "title": {
+        "zh": "消息中枢",
+        "en": "Message Hub"
+      },
+      "description": {
+        "zh": "通知/集成向的消息中枢，精选列表收录，尚未晋升到可安装。",
+        "en": "Notification/integration message hub. Curated, not yet promoted to installable."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "awesomeCategory": "notify",
+      "scenes": [
+        "cap.scene.we-media"
+      ],
+      "trustState": "screened",
+      "sources": [
+        "curated"
+      ],
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "awesome-dsh-plugin.com/plugins.json@2026-08-17"
+      },
+      "repository": "https://github.com/AbcdefgXW/dsh-msg-hub",
+      "license": "MIT",
+      "versions": [
+        {
+          "id": "npm:dsh-msg-hub@0.0.1",
+          "pluginId": "github:AbcdefgXW/dsh-msg-hub",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": false,
+          "lifecycleScripts": [],
+          "passportId": "passport:npm:dsh-msg-hub@0.0.1:scanner-2",
+          "capabilityClaims": [
+            "cap.product.notify"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:AbcdefgXW/dsh-msg-hub",
+            "versionId": "npm:dsh-msg-hub@0.0.1",
+            "packageName": "dsh-msg-hub",
+            "subpath": null,
+            "profile": "web",
+            "requiresBuildPermission": false,
+            "expectedBundle": true,
+            "passportId": "passport:npm:dsh-msg-hub@0.0.1:scanner-2",
+            "lockedSpec": "dsh-msg-hub@0.0.1"
+          }
+        }
+      ],
+      "defaultVersionId": "npm:dsh-msg-hub@0.0.1"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:Aik358/dsh-auto-memory",
+      "publisher": "Aik358",
+      "npmName": "@a9i5k4/dsh-auto-memory",
+      "title": {
+        "zh": "Auto Memory",
+        "en": "Auto Memory"
+      },
+      "description": {
+        "zh": "三层记忆自动注入与检索。存在文件系统与凭据静态信号，需人工复核。",
+        "en": "Three-layer auto memory. Filesystem and credential static signals require review."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "awesomeCategory": "memory",
+      "trustState": "review_required",
+      "sources": [
+        "discovered"
+      ],
+      "stars": {
+        "count": 11,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "awesome-dsh-plugin.com/plugins.json@2026-08-17"
+      },
+      "repository": "https://github.com/Aik358/dsh-auto-memory",
+      "license": "BSD-3-Clause",
+      "versions": [
+        {
+          "id": "npm:@a9i5k4/dsh-auto-memory@0.1.7",
+          "pluginId": "github:Aik358/dsh-auto-memory",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": true,
+          "lifecycleScripts": [],
+          "passportId": "passport:npm:@a9i5k4/dsh-auto-memory@0.1.7:scanner-2",
+          "capabilityClaims": [
+            "cap.product.memory"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:Aik358/dsh-auto-memory",
+            "versionId": "npm:@a9i5k4/dsh-auto-memory@0.1.7",
+            "packageName": "@a9i5k4/dsh-auto-memory",
+            "subpath": null,
+            "profile": "web",
+            "requiresBuildPermission": false,
+            "expectedBundle": true,
+            "passportId": "passport:npm:@a9i5k4/dsh-auto-memory@0.1.7:scanner-2",
+            "lockedSpec": "@a9i5k4/dsh-auto-memory@0.1.7"
+          }
+        }
+      ],
+      "defaultVersionId": "npm:@a9i5k4/dsh-auto-memory@0.1.7"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:Anionex/dsh-vision-toolkit",
+      "publisher": "Anionex",
+      "npmName": "@anionex/dsh-vision-toolkit",
+      "title": {
+        "zh": "Vision Toolkit",
+        "en": "Vision Toolkit"
+      },
+      "description": {
+        "zh": "让纯文本模型更好地做视觉任务：带意图的图片问答、长截图 OCR、UI 还原等。",
+        "en": "Vision tasks for text-only models: intent-aware image Q&A, long-screenshot OCR, UI reproduction, grounding, and pixel diff."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "awesomeCategory": "vision",
+      "scenes": [
+        "cap.scene.we-media"
+      ],
+      "trustState": "featured",
+      "sources": [
+        "curated"
+      ],
+      "stars": {
+        "count": 560,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "awesome-dsh-plugin.com/plugins.json@2026-08-17"
+      },
+      "repository": "https://github.com/Anionex/dsh-vision-toolkit",
+      "license": "MIT",
+      "versions": [
+        {
+          "id": "npm:@anionex/dsh-vision-toolkit@0.1.18",
+          "pluginId": "github:Anionex/dsh-vision-toolkit",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": true,
+          "lifecycleScripts": [],
+          "passportId": "passport:npm:@anionex/dsh-vision-toolkit@0.1.18:scanner-2",
+          "capabilityClaims": [
+            "cap.product.vision",
+            "cap.seam.skills",
+            "cap.seam.tools"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "0.1.0-rc.5"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:Anionex/dsh-vision-toolkit",
+            "versionId": "npm:@anionex/dsh-vision-toolkit@0.1.18",
+            "packageName": "@anionex/dsh-vision-toolkit",
+            "subpath": null,
+            "integrity": "sha512-BHCKRbUVlASegV8W1AFX+QuSRGp+xDZIF4foJR63o4o920WUAYgbpI1kfksUq6IGvN1NjGOLpmYs6Wj57fPNCw==",
+            "profile": "web",
+            "requiresBuildPermission": false,
+            "expectedBundle": true,
+            "passportId": "passport:npm:@anionex/dsh-vision-toolkit@0.1.18:scanner-2",
+            "lockedSpec": "@anionex/dsh-vision-toolkit@0.1.18"
+          }
+        }
+      ],
+      "defaultVersionId": "npm:@anionex/dsh-vision-toolkit@0.1.18"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:Jamailar/beav-deepseek-harness",
+      "publisher": "Jamailar",
+      "npmName": "beav-creator-dsh",
+      "title": {
+        "zh": "Beav Creator",
+        "en": "Beav Creator"
+      },
+      "description": {
+        "zh": "hub clear 插件，可作为创作者工作流候选，但不是官方场景认证。",
+        "en": "Hub-clear plugin that may help creator workflows; not an official scene certification."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "sourceCommit": "05f947af0d18f348a6c282ae976b0affddf522a1",
+      "awesomeCategory": "workflow",
+      "scenes": [
+        "cap.scene.we-media"
+      ],
+      "trustState": "installable",
+      "sources": [
+        "discovered"
+      ],
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "plugin-hub /api/plugins@2026-08-17T00:00:55.669Z"
+      },
+      "repository": "https://github.com/Jamailar/beav-deepseek-harness",
+      "license": "MIT",
+      "versions": [
+        {
+          "id": "git:github.com/Jamailar/beav-deepseek-harness@05f947af0d18f348a6c282ae976b0affddf522a1",
+          "pluginId": "github:Jamailar/beav-deepseek-harness",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": false,
+          "lifecycleScripts": [],
+          "passportId": "passport:git:github.com/Jamailar/beav-deepseek-harness@05f947af0d18f348a6c282ae976b0affddf522a1:scanner-2",
+          "capabilityClaims": [
+            "cap.product.workflow"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:Jamailar/beav-deepseek-harness",
+            "versionId": "git:github.com/Jamailar/beav-deepseek-harness@05f947af0d18f348a6c282ae976b0affddf522a1",
+            "packageName": "beav-creator-dsh",
+            "subpath": null,
+            "profile": "web",
+            "requiresBuildPermission": false,
+            "expectedBundle": true,
+            "passportId": "passport:git:github.com/Jamailar/beav-deepseek-harness@05f947af0d18f348a6c282ae976b0affddf522a1:scanner-2",
+            "lockedSpec": "github:Jamailar/beav-deepseek-harness#05f947af0d18f348a6c282ae976b0affddf522a1"
+          }
+        }
+      ],
+      "defaultVersionId": "git:github.com/Jamailar/beav-deepseek-harness@05f947af0d18f348a6c282ae976b0affddf522a1"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:Tommy00748/dsh-theme-cyberpunk2077",
+      "publisher": "Tommy00748",
+      "title": {
+        "zh": "赛博朋克主题",
+        "en": "Cyberpunk theme"
+      },
+      "description": {
+        "zh": "另一款主题，用于互斥检测。仍是候选。",
+        "en": "Another theme used for mutex detection. Still a candidate."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "awesomeCategory": "theme",
+      "trustState": "candidate",
+      "sources": [
+        "discovered"
+      ],
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "plugin-hub topic scan@2026-08-17"
+      },
+      "repository": "https://github.com/Tommy00748/dsh-theme-cyberpunk2077",
+      "versions": [
+        {
+          "id": "git:github.com/Tommy00748/dsh-theme-cyberpunk2077@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "pluginId": "github:Tommy00748/dsh-theme-cyberpunk2077",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": false,
+          "lifecycleScripts": [],
+          "passportId": "passport:git:github.com/Tommy00748/dsh-theme-cyberpunk2077@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb:scanner-2",
+          "capabilityClaims": [
+            "cap.product.theme"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:Tommy00748/dsh-theme-cyberpunk2077",
+            "versionId": "git:github.com/Tommy00748/dsh-theme-cyberpunk2077@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+            "packageName": "dsh-theme-cyberpunk2077",
+            "subpath": null,
+            "profile": "web",
+            "requiresBuildPermission": false,
+            "expectedBundle": true,
+            "passportId": "passport:git:github.com/Tommy00748/dsh-theme-cyberpunk2077@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb:scanner-2",
+            "lockedSpec": "github:Tommy00748/dsh-theme-cyberpunk2077#bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+          }
+        }
+      ],
+      "defaultVersionId": "git:github.com/Tommy00748/dsh-theme-cyberpunk2077@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:awesome-dsh-plugin/dsh-find-plugin",
+      "publisher": "awesome-dsh-plugin",
+      "npmName": "dsh-find-plugin",
+      "title": {
+        "zh": "Find Plugin",
+        "en": "Find Plugin"
+      },
+      "description": {
+        "zh": "会话内按精选列表搜插件。Agent 可直接装是反面教材。",
+        "en": "In-session search of the curated list. Agent-direct install is the anti-pattern."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "awesomeCategory": "tools",
+      "trustState": "screened",
+      "sources": [
+        "curated"
+      ],
+      "stars": {
+        "count": 40,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "awesome-dsh-plugin.com/plugins.json@2026-08-17"
+      },
+      "repository": "https://github.com/awesome-dsh-plugin/dsh-find-plugin",
+      "license": "MIT",
+      "versions": [
+        {
+          "id": "npm:dsh-find-plugin@0.3.5",
+          "pluginId": "github:awesome-dsh-plugin/dsh-find-plugin",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": false,
+          "lifecycleScripts": [],
+          "passportId": "passport:npm:dsh-find-plugin@0.3.5:scanner-2",
+          "capabilityClaims": [
+            "cap.product.market"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:awesome-dsh-plugin/dsh-find-plugin",
+            "versionId": "npm:dsh-find-plugin@0.3.5",
+            "packageName": "dsh-find-plugin",
+            "subpath": null,
+            "profile": "web",
+            "requiresBuildPermission": false,
+            "expectedBundle": true,
+            "passportId": "passport:npm:dsh-find-plugin@0.3.5:scanner-2",
+            "lockedSpec": "dsh-find-plugin@0.3.5"
+          }
+        }
+      ],
+      "defaultVersionId": "npm:dsh-find-plugin@0.3.5"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:dfkai/dsh-board",
+      "publisher": "dfkai",
+      "npmName": "dsh-board",
+      "title": {
+        "zh": "dsh-board",
+        "en": "dsh-board"
+      },
+      "description": {
+        "zh": "hub clear + 锁定 commit 的看板插件。",
+        "en": "Hub-clear board plugin with a locked commit."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "sourceCommit": "5375c0920f8a04a3208f4d70719656455113da5d",
+      "awesomeCategory": "workflow",
+      "trustState": "installable",
+      "sources": [
+        "discovered"
+      ],
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "plugin-hub /api/plugins@2026-08-17T00:00:55.669Z"
+      },
+      "repository": "https://github.com/dfkai/dsh-board",
+      "license": "MIT",
+      "versions": [
+        {
+          "id": "git:github.com/dfkai/dsh-board@5375c0920f8a04a3208f4d70719656455113da5d",
+          "pluginId": "github:dfkai/dsh-board",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": false,
+          "lifecycleScripts": [],
+          "passportId": "passport:git:github.com/dfkai/dsh-board@5375c0920f8a04a3208f4d70719656455113da5d:scanner-2",
+          "capabilityClaims": [
+            "cap.product.workflow",
+            "cap.scene.office"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:dfkai/dsh-board",
+            "versionId": "git:github.com/dfkai/dsh-board@5375c0920f8a04a3208f4d70719656455113da5d",
+            "packageName": "dsh-board",
+            "subpath": null,
+            "profile": "web",
+            "requiresBuildPermission": false,
+            "expectedBundle": true,
+            "passportId": "passport:git:github.com/dfkai/dsh-board@5375c0920f8a04a3208f4d70719656455113da5d:scanner-2",
+            "lockedSpec": "github:dfkai/dsh-board#5375c0920f8a04a3208f4d70719656455113da5d"
+          }
+        }
+      ],
+      "defaultVersionId": "git:github.com/dfkai/dsh-board@5375c0920f8a04a3208f4d70719656455113da5d"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:dsh-market/dsh-market",
+      "publisher": "dsh-market",
+      "npmName": "dshmarket",
+      "title": {
+        "zh": "dsh-market",
+        "en": "dsh-market"
+      },
+      "description": {
+        "zh": "设置页内市场。另开 settings.section id=market，不是 DSH Store 要抄的路。",
+        "en": "In-settings market. Registers a separate settings.section id=market; DSH Store must not copy that path."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "awesomeCategory": "market",
+      "trustState": "review_required",
+      "sources": [
+        "curated"
+      ],
+      "stars": {
+        "count": 654,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "awesome-dsh-plugin.com/plugins.json@2026-08-17"
+      },
+      "repository": "https://github.com/dsh-market/dsh-market",
+      "versions": [
+        {
+          "id": "npm:dshmarket@1.10.1",
+          "pluginId": "github:dsh-market/dsh-market",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": true,
+          "lifecycleScripts": [
+            "prepare"
+          ],
+          "passportId": "passport:npm:dshmarket@1.10.1:scanner-2",
+          "capabilityClaims": [
+            "cap.product.market"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:dsh-market/dsh-market",
+            "versionId": "npm:dshmarket@1.10.1",
+            "packageName": "dshmarket",
+            "subpath": null,
+            "profile": "web",
+            "requiresBuildPermission": true,
+            "expectedBundle": true,
+            "passportId": "passport:npm:dshmarket@1.10.1:scanner-2",
+            "lockedSpec": "dshmarket@1.10.1"
+          }
+        }
+      ],
+      "defaultVersionId": "npm:dshmarket@1.10.1"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:dsh-store/fixture-client-only",
+      "publisher": "dsh-store",
+      "npmName": "@dsh-store/fixture-client-only",
+      "title": {
+        "zh": "仅 client 反例",
+        "en": "Client-only fixture"
+      },
+      "description": {
+        "zh": "只有 dsh.client、没有 dsh.bundle。装进 profile 只能标 inert。",
+        "en": "Has dsh.client only, no dsh.bundle. Installing it into a profile must yield inert."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "awesomeCategory": "dev",
+      "trustState": "screened",
+      "sources": [
+        "author_pr"
+      ],
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "fixture"
+      },
+      "repository": "https://github.com/dsh-store/fixture-client-only",
+      "license": "MIT",
+      "versions": [
+        {
+          "id": "npm:@dsh-store/fixture-client-only@0.0.1",
+          "pluginId": "github:dsh-store/fixture-client-only",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": false,
+          "hasClient": true,
+          "lifecycleScripts": [],
+          "passportId": "passport:npm:@dsh-store/fixture-client-only@0.0.1:scanner-2",
+          "capabilityClaims": [
+            "cap.seam.clientModules"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:dsh-store/fixture-client-only",
+            "versionId": "npm:@dsh-store/fixture-client-only@0.0.1",
+            "packageName": "@dsh-store/fixture-client-only",
+            "subpath": null,
+            "profile": "web",
+            "requiresBuildPermission": false,
+            "expectedBundle": false,
+            "passportId": "passport:npm:@dsh-store/fixture-client-only@0.0.1:scanner-2",
+            "lockedSpec": "@dsh-store/fixture-client-only@0.0.1"
+          }
+        }
+      ],
+      "defaultVersionId": "npm:@dsh-store/fixture-client-only@0.0.1"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:dsh-store/fixture-monorepo#packages/real-plugin",
+      "publisher": "dsh-store",
+      "npmName": "@dsh-store/fixture-real-plugin",
+      "title": {
+        "zh": "monorepo 子包正例",
+        "en": "Monorepo subpath fixture"
+      },
+      "description": {
+        "zh": "必须按 subpath 安装，不能装 monorepo 根。",
+        "en": "Must install the subpath package, never the monorepo root."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "awesomeCategory": "dev",
+      "trustState": "installable",
+      "sources": [
+        "author_pr"
+      ],
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "fixture"
+      },
+      "repository": "https://github.com/dsh-store/fixture-monorepo",
+      "license": "MIT",
+      "versions": [
+        {
+          "id": "npm:@dsh-store/fixture-real-plugin@0.0.1",
+          "pluginId": "github:dsh-store/fixture-monorepo#packages/real-plugin",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": false,
+          "lifecycleScripts": [],
+          "passportId": "passport:npm:@dsh-store/fixture-real-plugin@0.0.1:scanner-2",
+          "capabilityClaims": [
+            "cap.seam.tools"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:dsh-store/fixture-monorepo#packages/real-plugin",
+            "versionId": "npm:@dsh-store/fixture-real-plugin@0.0.1",
+            "packageName": "@dsh-store/fixture-real-plugin",
+            "subpath": "packages/real-plugin",
+            "profile": "web",
+            "requiresBuildPermission": true,
+            "expectedBundle": true,
+            "passportId": "passport:npm:@dsh-store/fixture-real-plugin@0.0.1:scanner-2",
+            "lockedSpec": "@dsh-store/fixture-real-plugin@0.0.1"
+          }
+        }
+      ],
+      "defaultVersionId": "npm:@dsh-store/fixture-real-plugin@0.0.1"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:huiliyi37/dsh-tianshu-tui",
+      "publisher": "huiliyi37",
+      "npmName": "@huiliyi37/dsh-tianshu-tui",
+      "title": {
+        "zh": "天枢 TUI",
+        "en": "Tianshu TUI"
+      },
+      "description": {
+        "zh": "DeepSeek Harness 的终端 UI。默认目标是 headless，不偷偷装进 web。",
+        "en": "A terminal UI for DeepSeek Harness. Default target is headless, never silently installed into web."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "awesomeCategory": "ui",
+      "trustState": "screened",
+      "sources": [
+        "curated"
+      ],
+      "stars": {
+        "count": 104,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "plugin-hub /api/plugins@2026-08-17T00:00:55.669Z"
+      },
+      "repository": "https://github.com/huiliyi37/dsh-tianshu-tui",
+      "license": "Apache-2.0",
+      "versions": [
+        {
+          "id": "npm:@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6",
+          "pluginId": "github:huiliyi37/dsh-tianshu-tui",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": false,
+          "lifecycleScripts": [],
+          "passportId": "passport:npm:@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6:scanner-2",
+          "capabilityClaims": [
+            "cap.product.terminal"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "headless"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:huiliyi37/dsh-tianshu-tui",
+            "versionId": "npm:@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6",
+            "packageName": "@huiliyi37/dsh-tianshu-tui",
+            "subpath": null,
+            "profile": "headless",
+            "requiresBuildPermission": false,
+            "expectedBundle": true,
+            "passportId": "passport:npm:@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6:scanner-2",
+            "lockedSpec": "@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6"
+          }
+        }
+      ],
+      "defaultVersionId": "npm:@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:linxin666/dsh-web-ui-all",
+      "publisher": "linxin666",
+      "npmName": "@linxin666/dsh-web-ui-all",
+      "aliases": [
+        "github:zhu1090093659/dsh-web-ui#packages/dsh-web-ui-all"
+      ],
+      "title": {
+        "zh": "侵入式 Web UI 合集",
+        "en": "Invasive Web UI pack"
+      },
+      "description": {
+        "zh": "会遮挡官方设置的侵入式 Web UI。本机已清理，默认 blocked。",
+        "en": "Invasive Web UI that occludes official Settings. Removed locally; default blocked."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "awesomeCategory": "ui",
+      "trustState": "blocked",
+      "blockedReason": {
+        "zh": "侵入式 Web UI 会遮挡官方设置，禁止一键安装。",
+        "en": "Invasive Web UI occludes official Settings; one-click install is forbidden."
+      },
+      "sources": [
+        "discovered"
+      ],
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "local-observation@2026-08-17"
+      },
+      "repository": "https://github.com/linxin666/dsh-web-ui-all",
+      "versions": [
+        {
+          "id": "npm:@linxin666/dsh-web-ui-all@0.0.0",
+          "pluginId": "github:linxin666/dsh-web-ui-all",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": true,
+          "lifecycleScripts": [],
+          "passportId": "passport:npm:@linxin666/dsh-web-ui-all@0.0.0:scanner-2",
+          "capabilityClaims": [
+            "cap.product.theme"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:linxin666/dsh-web-ui-all",
+            "versionId": "npm:@linxin666/dsh-web-ui-all@0.0.0",
+            "packageName": "@linxin666/dsh-web-ui-all",
+            "subpath": null,
+            "profile": "web",
+            "requiresBuildPermission": false,
+            "expectedBundle": true,
+            "passportId": "passport:npm:@linxin666/dsh-web-ui-all@0.0.0:scanner-2",
+            "lockedSpec": "@linxin666/dsh-web-ui-all@0.0.0"
+          }
+        }
+      ],
+      "defaultVersionId": "npm:@linxin666/dsh-web-ui-all@0.0.0"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:lussey820/dsh-http-tools",
+      "publisher": "lussey820",
+      "npmName": "dsh-http-tools",
+      "title": {
+        "zh": "HTTP Tools",
+        "en": "HTTP Tools"
+      },
+      "description": {
+        "zh": "HTTP/API 调试工具集：请求、curl 解析与会话内历史。",
+        "en": "HTTP/API debugging toolset: requests, curl parsing, and in-session history."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "sourceCommit": "fdc1b71738ac40a9fae0a5f6c02c81f7107f0a41",
+      "awesomeCategory": "tools",
+      "trustState": "installable",
+      "sources": [
+        "discovered",
+        "curated"
+      ],
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "plugin-hub /api/plugins@2026-08-17T00:00:55.669Z"
+      },
+      "repository": "https://github.com/lussey820/dsh-http-tools",
+      "license": "MIT",
+      "versions": [
+        {
+          "id": "git:github.com/lussey820/dsh-http-tools@fdc1b71738ac40a9fae0a5f6c02c81f7107f0a41",
+          "pluginId": "github:lussey820/dsh-http-tools",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": false,
+          "lifecycleScripts": [],
+          "passportId": "passport:git:github.com/lussey820/dsh-http-tools@fdc1b71738ac40a9fae0a5f6c02c81f7107f0a41:scanner-2",
+          "capabilityClaims": [
+            "cap.product.browser",
+            "cap.seam.tools",
+            "cap.seam.web"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:lussey820/dsh-http-tools",
+            "versionId": "git:github.com/lussey820/dsh-http-tools@fdc1b71738ac40a9fae0a5f6c02c81f7107f0a41",
+            "packageName": "dsh-http-tools",
+            "subpath": null,
+            "integrity": "sha512-4JAxEcKk+s5/ZYmRD2jckHj8FosZdNo6M2jhAVFg2Eh5D1i8Ha+AimJJyi/HZ5EAOqZiHMnApL/5LlB2jgafSA==",
+            "profile": "web",
+            "requiresBuildPermission": false,
+            "expectedBundle": true,
+            "passportId": "passport:git:github.com/lussey820/dsh-http-tools@fdc1b71738ac40a9fae0a5f6c02c81f7107f0a41:scanner-2",
+            "lockedSpec": "github:lussey820/dsh-http-tools#fdc1b71738ac40a9fae0a5f6c02c81f7107f0a41"
+          }
+        }
+      ],
+      "defaultVersionId": "git:github.com/lussey820/dsh-http-tools@fdc1b71738ac40a9fae0a5f6c02c81f7107f0a41"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:omdsh-dev/ex-setting",
+      "publisher": "omdsh-dev",
+      "npmName": "@deepseek-ai/dsh-ex-setting",
+      "title": {
+        "zh": "ex-setting",
+        "en": "ex-setting"
+      },
+      "description": {
+        "zh": "hub 给出锁定 commit 但仍标 review 的设置扩展。",
+        "en": "Settings extension with a locked commit that hub still marks as review."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "sourceCommit": "46130b8d5f0c3784cb1325412fea0b116b37e9ae",
+      "awesomeCategory": "dev",
+      "trustState": "review_required",
+      "sources": [
+        "discovered"
+      ],
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "plugin-hub /api/plugins@2026-08-17T00:00:55.669Z"
+      },
+      "repository": "https://github.com/omdsh-dev/ex-setting",
+      "versions": [
+        {
+          "id": "git:github.com/omdsh-dev/ex-setting@46130b8d5f0c3784cb1325412fea0b116b37e9ae",
+          "pluginId": "github:omdsh-dev/ex-setting",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": false,
+          "lifecycleScripts": [],
+          "passportId": "passport:git:github.com/omdsh-dev/ex-setting@46130b8d5f0c3784cb1325412fea0b116b37e9ae:scanner-2",
+          "capabilityClaims": [
+            "cap.seam.settings"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:omdsh-dev/ex-setting",
+            "versionId": "git:github.com/omdsh-dev/ex-setting@46130b8d5f0c3784cb1325412fea0b116b37e9ae",
+            "packageName": "@deepseek-ai/dsh-ex-setting",
+            "subpath": null,
+            "profile": "web",
+            "requiresBuildPermission": false,
+            "expectedBundle": true,
+            "passportId": "passport:git:github.com/omdsh-dev/ex-setting@46130b8d5f0c3784cb1325412fea0b116b37e9ae:scanner-2",
+            "lockedSpec": "github:omdsh-dev/ex-setting#46130b8d5f0c3784cb1325412fea0b116b37e9ae"
+          }
+        }
+      ],
+      "defaultVersionId": "git:github.com/omdsh-dev/ex-setting@46130b8d5f0c3784cb1325412fea0b116b37e9ae"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:openma-ai/deepseek-harness-tui",
+      "publisher": "openma-ai",
+      "title": {
+        "zh": "deepseek-harness-tui",
+        "en": "deepseek-harness-tui"
+      },
+      "description": {
+        "zh": "Rust/ratatui 终端客户端。hub 因无有效 dsh manifest 标 blocked。",
+        "en": "Rust/ratatui terminal client. Hub blocked it for a missing dsh manifest."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "awesomeCategory": "ui",
+      "trustState": "blocked",
+      "blockedReason": {
+        "zh": "未识别到有效的 dsh manifest，不能给出安装命令。",
+        "en": "No valid dsh manifest found; no install command may be emitted."
+      },
+      "sources": [
+        "curated"
+      ],
+      "stars": {
+        "count": 34,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "awesome-dsh-plugin.com/plugins.json@2026-08-17"
+      },
+      "repository": "https://github.com/openma-ai/deepseek-harness-tui",
+      "license": "MIT",
+      "versions": [
+        {
+          "id": "git:github.com/openma-ai/deepseek-harness-tui@0000000000000000000000000000000000000001",
+          "pluginId": "github:openma-ai/deepseek-harness-tui",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": false,
+          "hasClient": false,
+          "lifecycleScripts": [],
+          "passportId": "passport:git:github.com/openma-ai/deepseek-harness-tui@0000000000000000000000000000000000000001:scanner-2",
+          "capabilityClaims": [
+            "cap.product.terminal"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "headless"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:openma-ai/deepseek-harness-tui",
+            "versionId": "git:github.com/openma-ai/deepseek-harness-tui@0000000000000000000000000000000000000001",
+            "packageName": "deepseek-harness-tui",
+            "subpath": null,
+            "profile": "headless",
+            "requiresBuildPermission": false,
+            "expectedBundle": false,
+            "passportId": "passport:git:github.com/openma-ai/deepseek-harness-tui@0000000000000000000000000000000000000001:scanner-2",
+            "lockedSpec": "github:openma-ai/deepseek-harness-tui#0000000000000000000000000000000000000001"
+          }
+        }
+      ],
+      "defaultVersionId": "git:github.com/openma-ai/deepseek-harness-tui@0000000000000000000000000000000000000001"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:renpengfei1027/dsh-web-notify",
+      "publisher": "renpengfei1027",
+      "npmName": "dsh-web-notify",
+      "title": {
+        "zh": "Web Notify",
+        "en": "Web Notify"
+      },
+      "description": {
+        "zh": "Web 通知插件，补上本机 web profile 的通知缺口。",
+        "en": "Web notification plugin that can fill a notify gap on the local web profile."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "sourceCommit": "63498d970df877584b20f1462e96fe92016c5f16",
+      "awesomeCategory": "notify",
+      "scenes": [
+        "cap.scene.we-media"
+      ],
+      "trustState": "installable",
+      "sources": [
+        "discovered"
+      ],
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "plugin-hub /api/plugins@2026-08-17T00:00:55.669Z"
+      },
+      "repository": "https://github.com/renpengfei1027/dsh-web-notify",
+      "license": "MIT",
+      "versions": [
+        {
+          "id": "npm:dsh-web-notify@0.1.4",
+          "pluginId": "github:renpengfei1027/dsh-web-notify",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": true,
+          "lifecycleScripts": [],
+          "passportId": "passport:npm:dsh-web-notify@0.1.4:scanner-2",
+          "capabilityClaims": [
+            "cap.product.notify"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:renpengfei1027/dsh-web-notify",
+            "versionId": "npm:dsh-web-notify@0.1.4",
+            "packageName": "dsh-web-notify",
+            "subpath": null,
+            "profile": "web",
+            "requiresBuildPermission": false,
+            "expectedBundle": true,
+            "passportId": "passport:npm:dsh-web-notify@0.1.4:scanner-2",
+            "lockedSpec": "dsh-web-notify@0.1.4"
+          }
+        }
+      ],
+      "defaultVersionId": "npm:dsh-web-notify@0.1.4"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:slywalker2006/dsh-passwords",
+      "publisher": "slywalker2006",
+      "npmName": "dsh-passwords",
+      "title": {
+        "zh": "Passwords",
+        "en": "Passwords"
+      },
+      "description": {
+        "zh": "hub 给出锁定 commit 安装命令的 clear 插件之一。",
+        "en": "One of the few hub-clear plugins with a locked-commit install command."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "sourceCommit": "90493d3b1a22d24326480180eac753cbf91ac817",
+      "awesomeCategory": "tools",
+      "trustState": "installable",
+      "sources": [
+        "discovered"
+      ],
+      "stars": {
+        "count": 0,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "plugin-hub /api/plugins@2026-08-17T00:00:55.669Z"
+      },
+      "repository": "https://github.com/slywalker2006/dsh-passwords",
+      "license": "MIT",
+      "versions": [
+        {
+          "id": "git:github.com/slywalker2006/dsh-passwords@90493d3b1a22d24326480180eac753cbf91ac817",
+          "pluginId": "github:slywalker2006/dsh-passwords",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": false,
+          "lifecycleScripts": [],
+          "passportId": "passport:git:github.com/slywalker2006/dsh-passwords@90493d3b1a22d24326480180eac753cbf91ac817:scanner-2",
+          "capabilityClaims": [
+            "cap.product.security"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:slywalker2006/dsh-passwords",
+            "versionId": "git:github.com/slywalker2006/dsh-passwords@90493d3b1a22d24326480180eac753cbf91ac817",
+            "packageName": "dsh-passwords",
+            "subpath": null,
+            "profile": "web",
+            "requiresBuildPermission": false,
+            "expectedBundle": true,
+            "passportId": "passport:git:github.com/slywalker2006/dsh-passwords@90493d3b1a22d24326480180eac753cbf91ac817:scanner-2",
+            "lockedSpec": "github:slywalker2006/dsh-passwords#90493d3b1a22d24326480180eac753cbf91ac817"
+          }
+        }
+      ],
+      "defaultVersionId": "git:github.com/slywalker2006/dsh-passwords@90493d3b1a22d24326480180eac753cbf91ac817"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "github:zhu1090093659/dsh-web-ui",
+      "publisher": "zhu1090093659",
+      "npmName": "dsh-web-ui",
+      "title": {
+        "zh": "dsh-web-ui monorepo 根",
+        "en": "dsh-web-ui monorepo root"
+      },
+      "description": {
+        "zh": "皮肤合集 monorepo 根目录。不能把根目录当成可安装目标。",
+        "en": "Skin-collection monorepo root. The root must never be an install target."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "awesomeCategory": "ui",
+      "trustState": "blocked",
+      "blockedReason": {
+        "zh": "monorepo 根没有有效 dsh.bundle，装根会装错子包。",
+        "en": "Monorepo root has no valid dsh.bundle; installing the root installs the wrong package."
+      },
+      "sources": [
+        "curated"
+      ],
+      "stars": {
+        "count": 1312,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "plugin-hub /api/plugins@2026-08-17T00:00:55.669Z"
+      },
+      "repository": "https://github.com/zhu1090093659/dsh-web-ui",
+      "versions": [
+        {
+          "id": "npm:dsh-web-ui@0.1.1",
+          "pluginId": "github:zhu1090093659/dsh-web-ui",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": false,
+          "hasClient": false,
+          "lifecycleScripts": [],
+          "passportId": "passport:npm:dsh-web-ui@0.1.1:scanner-2",
+          "capabilityClaims": [
+            "cap.product.theme"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:zhu1090093659/dsh-web-ui",
+            "versionId": "npm:dsh-web-ui@0.1.1",
+            "packageName": "dsh-web-ui",
+            "subpath": null,
+            "profile": "web",
+            "requiresBuildPermission": false,
+            "expectedBundle": false,
+            "passportId": "passport:npm:dsh-web-ui@0.1.1:scanner-2",
+            "lockedSpec": "dsh-web-ui@0.1.1"
+          }
+        }
+      ],
+      "defaultVersionId": "npm:dsh-web-ui@0.1.1"
+    }
+  ],
+  "packs": [
+    {
+      "id": "pack:alice/notify-kit",
+      "version": "0.1.0",
+      "title": {
+        "zh": "通知工具包",
+        "en": "Notify kit"
+      },
+      "description": {
+        "zh": "社区包示例。只含已经 installable 的通知插件。",
+        "en": "Community pack example. Only the already installable notify plugin."
+      },
+      "kind": "community",
+      "profileTarget": "web",
+      "entries": [
+        {
+          "ref": "github:renpengfei1027/dsh-web-notify",
+          "version": "npm:dsh-web-notify@0.1.4",
+          "role": "required"
+        }
+      ],
+      "installPolicy": {
+        "stopOnBlocked": true,
+        "requirePassport": true,
+        "allowCandidate": false
+      },
+      "completeness": "complete"
+    },
+    {
+      "id": "pack:dsh-store/blocked-ui-demo",
+      "version": "0.0.1",
+      "title": {
+        "zh": "含 blocked 条目的反例包",
+        "en": "Pack with a blocked entry"
+      },
+      "kind": "official",
+      "profileTarget": "web",
+      "entries": [
+        {
+          "ref": "github:linxin666/dsh-web-ui-all",
+          "version": "npm:@linxin666/dsh-web-ui-all@0.0.0",
+          "role": "required"
+        }
+      ],
+      "installPolicy": {
+        "stopOnBlocked": true,
+        "requirePassport": true,
+        "allowCandidate": false
+      },
+      "completeness": "partial"
+    },
+    {
+      "id": "pack:dsh-store/terminal-starter",
+      "version": "0.1.0",
+      "title": {
+        "zh": "终端起步包",
+        "en": "Terminal starter pack"
+      },
+      "description": {
+        "zh": "TUI 默认走 headless，不偷偷装进 web。",
+        "en": "TUI packs default to headless and never silently install into web."
+      },
+      "kind": "official",
+      "profileTarget": "headless",
+      "entries": [
+        {
+          "ref": "github:huiliyi37/dsh-tianshu-tui",
+          "version": "npm:@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6",
+          "role": "required"
+        }
+      ],
+      "installPolicy": {
+        "stopOnBlocked": true,
+        "requirePassport": true,
+        "allowCandidate": false
+      },
+      "completeness": "partial"
+    },
+    {
+      "id": "pack:dsh-store/we-media-starter",
+      "version": "0.1.0",
+      "title": {
+        "zh": "自媒体起步包",
+        "en": "We-media starter pack"
+      },
+      "description": {
+        "zh": "保留已装视觉工具，不重复安装；只补已经 installable 的通知能力。工作流条目不足时标 partial。",
+        "en": "Keep the installed vision toolkit, do not reinstall it, and only add installable notify coverage. Mark partial when workflow is still missing."
+      },
+      "kind": "official",
+      "profileTarget": "web",
+      "entries": [
+        {
+          "ref": "github:Anionex/dsh-vision-toolkit",
+          "version": "npm:@anionex/dsh-vision-toolkit@0.1.18",
+          "role": "alreadyCovered"
+        },
+        {
+          "ref": "github:renpengfei1027/dsh-web-notify",
+          "version": "npm:dsh-web-notify@0.1.4",
+          "role": "required"
+        }
+      ],
+      "mutexGroups": [
+        {
+          "id": "theme",
+          "policy": "single"
+        }
+      ],
+      "conflicts": [
+        {
+          "plugin": "github:linxin666/dsh-web-ui-all",
+          "reason": "侵入式 Web UI 会遮挡官方设置"
+        }
+      ],
+      "capabilityCoverage": [
+        "cap.scene.we-media",
+        "cap.product.vision",
+        "cap.product.notify"
+      ],
+      "installPolicy": {
+        "stopOnBlocked": true,
+        "requirePassport": true,
+        "allowCandidate": false
+      },
+      "completeness": "partial"
+    }
+  ],
+  "passports": [
+    {
+      "id": "passport:git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:scanner-2",
+      "pluginId": "github:AKS1st/dsh-cyber-particle",
+      "versionId": "git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "candidate",
+      "manifest": {
+        "hasBundle": true,
+        "hasClient": false,
+        "packageName": "dsh-cyber-particle",
+        "subpath": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml"
+      ],
+      "findings": [],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:git:github.com/Jamailar/beav-deepseek-harness@05f947af0d18f348a6c282ae976b0affddf522a1:scanner-2",
+      "pluginId": "github:Jamailar/beav-deepseek-harness",
+      "versionId": "git:github.com/Jamailar/beav-deepseek-harness@05f947af0d18f348a6c282ae976b0affddf522a1",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "installable",
+      "manifest": {
+        "hasBundle": true,
+        "hasClient": false,
+        "packageName": "beav-creator-dsh",
+        "subpath": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml"
+      ],
+      "findings": [],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:git:github.com/Tommy00748/dsh-theme-cyberpunk2077@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb:scanner-2",
+      "pluginId": "github:Tommy00748/dsh-theme-cyberpunk2077",
+      "versionId": "git:github.com/Tommy00748/dsh-theme-cyberpunk2077@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "candidate",
+      "manifest": {
+        "hasBundle": true,
+        "hasClient": false,
+        "packageName": "dsh-theme-cyberpunk2077",
+        "subpath": null
+      },
+      "license": {
+        "spdx": null,
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml"
+      ],
+      "findings": [],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:git:github.com/dfkai/dsh-board@5375c0920f8a04a3208f4d70719656455113da5d:scanner-2",
+      "pluginId": "github:dfkai/dsh-board",
+      "versionId": "git:github.com/dfkai/dsh-board@5375c0920f8a04a3208f4d70719656455113da5d",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "installable",
+      "manifest": {
+        "hasBundle": true,
+        "hasClient": false,
+        "packageName": "dsh-board",
+        "subpath": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml"
+      ],
+      "findings": [],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:git:github.com/lussey820/dsh-http-tools@fdc1b71738ac40a9fae0a5f6c02c81f7107f0a41:scanner-2",
+      "pluginId": "github:lussey820/dsh-http-tools",
+      "versionId": "git:github.com/lussey820/dsh-http-tools@fdc1b71738ac40a9fae0a5f6c02c81f7107f0a41",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "installable",
+      "manifest": {
+        "hasBundle": true,
+        "hasClient": false,
+        "packageName": "dsh-http-tools",
+        "subpath": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml",
+        "src/index.ts"
+      ],
+      "findings": [],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:git:github.com/omdsh-dev/ex-setting@46130b8d5f0c3784cb1325412fea0b116b37e9ae:scanner-2",
+      "pluginId": "github:omdsh-dev/ex-setting",
+      "versionId": "git:github.com/omdsh-dev/ex-setting@46130b8d5f0c3784cb1325412fea0b116b37e9ae",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "review_required",
+      "manifest": {
+        "hasBundle": true,
+        "hasClient": false,
+        "packageName": "@deepseek-ai/dsh-ex-setting",
+        "subpath": null
+      },
+      "license": {
+        "spdx": null,
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml"
+      ],
+      "findings": [],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:git:github.com/openma-ai/deepseek-harness-tui@0000000000000000000000000000000000000001:scanner-2",
+      "pluginId": "github:openma-ai/deepseek-harness-tui",
+      "versionId": "git:github.com/openma-ai/deepseek-harness-tui@0000000000000000000000000000000000000001",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "blocked",
+      "manifest": {
+        "hasBundle": false,
+        "hasClient": false,
+        "packageName": "deepseek-harness-tui",
+        "subpath": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "headless"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json"
+      ],
+      "findings": [
+        {
+          "id": "manifest-missing",
+          "severity": "high",
+          "label": {
+            "zh": "未识别到有效的 dsh manifest",
+            "en": "No valid dsh manifest found"
+          },
+          "files": [
+            "package.json"
+          ]
+        }
+      ],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:git:github.com/slywalker2006/dsh-passwords@90493d3b1a22d24326480180eac753cbf91ac817:scanner-2",
+      "pluginId": "github:slywalker2006/dsh-passwords",
+      "versionId": "git:github.com/slywalker2006/dsh-passwords@90493d3b1a22d24326480180eac753cbf91ac817",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "installable",
+      "manifest": {
+        "hasBundle": true,
+        "hasClient": false,
+        "packageName": "dsh-passwords",
+        "subpath": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml"
+      ],
+      "findings": [],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:npm:@a9i5k4/dsh-auto-memory@0.1.7:scanner-2",
+      "pluginId": "github:Aik358/dsh-auto-memory",
+      "versionId": "npm:@a9i5k4/dsh-auto-memory@0.1.7",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "review_required",
+      "manifest": {
+        "hasBundle": true,
+        "hasClient": true,
+        "packageName": "@a9i5k4/dsh-auto-memory",
+        "subpath": null
+      },
+      "license": {
+        "spdx": "BSD-3-Clause",
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [
+          "lib/client.js"
+        ],
+        "fs": [
+          "lib/index.js"
+        ],
+        "credentials": [
+          "lib/index.js"
+        ],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml"
+      ],
+      "findings": [
+        {
+          "id": "filesystem-write",
+          "severity": "medium",
+          "label": {
+            "zh": "发现本地文件写入能力",
+            "en": "Local filesystem write capability signal found"
+          },
+          "files": [
+            "lib/index.js"
+          ]
+        }
+      ],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:npm:@anionex/dsh-vision-toolkit@0.1.18:scanner-2",
+      "pluginId": "github:Anionex/dsh-vision-toolkit",
+      "versionId": "npm:@anionex/dsh-vision-toolkit@0.1.18",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "featured",
+      "manifest": {
+        "hasBundle": true,
+        "hasClient": true,
+        "packageName": "@anionex/dsh-vision-toolkit",
+        "subpath": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml",
+        "lib/index.js"
+      ],
+      "findings": [],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:npm:@dsh-store/fixture-client-only@0.0.1:scanner-2",
+      "pluginId": "github:dsh-store/fixture-client-only",
+      "versionId": "npm:@dsh-store/fixture-client-only@0.0.1",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "screened",
+      "manifest": {
+        "hasBundle": false,
+        "hasClient": true,
+        "packageName": "@dsh-store/fixture-client-only",
+        "subpath": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json"
+      ],
+      "findings": [],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:npm:@dsh-store/fixture-real-plugin@0.0.1:scanner-2",
+      "pluginId": "github:dsh-store/fixture-monorepo#packages/real-plugin",
+      "versionId": "npm:@dsh-store/fixture-real-plugin@0.0.1",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "installable",
+      "manifest": {
+        "hasBundle": true,
+        "hasClient": false,
+        "packageName": "@dsh-store/fixture-real-plugin",
+        "subpath": "packages/real-plugin"
+      },
+      "license": {
+        "spdx": "MIT",
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml"
+      ],
+      "findings": [],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:npm:@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6:scanner-2",
+      "pluginId": "github:huiliyi37/dsh-tianshu-tui",
+      "versionId": "npm:@huiliyi37/dsh-tianshu-tui@0.1.1-rc.6",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "screened",
+      "manifest": {
+        "hasBundle": true,
+        "hasClient": false,
+        "packageName": "@huiliyi37/dsh-tianshu-tui",
+        "subpath": null
+      },
+      "license": {
+        "spdx": "Apache-2.0",
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "headless"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml"
+      ],
+      "findings": [],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:npm:@linxin666/dsh-web-ui-all@0.0.0:scanner-2",
+      "pluginId": "github:linxin666/dsh-web-ui-all",
+      "versionId": "npm:@linxin666/dsh-web-ui-all@0.0.0",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "blocked",
+      "manifest": {
+        "hasBundle": true,
+        "hasClient": true,
+        "packageName": "@linxin666/dsh-web-ui-all",
+        "subpath": null
+      },
+      "license": {
+        "spdx": null,
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": [
+          "settings.section",
+          "global-css"
+        ]
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml"
+      ],
+      "findings": [
+        {
+          "id": "ui-hijack",
+          "severity": "high",
+          "label": {
+            "zh": "劫持官方设置外壳",
+            "en": "Hijacks the official Settings chrome"
+          }
+        }
+      ],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:npm:dsh-find-plugin@0.3.5:scanner-2",
+      "pluginId": "github:awesome-dsh-plugin/dsh-find-plugin",
+      "versionId": "npm:dsh-find-plugin@0.3.5",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "screened",
+      "manifest": {
+        "hasBundle": true,
+        "hasClient": false,
+        "packageName": "dsh-find-plugin",
+        "subpath": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml"
+      ],
+      "findings": [],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:npm:dsh-msg-hub@0.0.1:scanner-2",
+      "pluginId": "github:AbcdefgXW/dsh-msg-hub",
+      "versionId": "npm:dsh-msg-hub@0.0.1",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "screened",
+      "manifest": {
+        "hasBundle": true,
+        "hasClient": false,
+        "packageName": "dsh-msg-hub",
+        "subpath": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml"
+      ],
+      "findings": [],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:npm:dsh-vision-web@0.0.1:scanner-2",
+      "pluginId": "github:54xkeee/dsh-vision",
+      "versionId": "npm:dsh-vision-web@0.0.1",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "screened",
+      "manifest": {
+        "hasBundle": true,
+        "hasClient": false,
+        "packageName": "dsh-vision-web",
+        "subpath": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml"
+      ],
+      "findings": [],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:npm:dsh-web-notify@0.1.4:scanner-2",
+      "pluginId": "github:renpengfei1027/dsh-web-notify",
+      "versionId": "npm:dsh-web-notify@0.1.4",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "installable",
+      "manifest": {
+        "hasBundle": true,
+        "hasClient": true,
+        "packageName": "dsh-web-notify",
+        "subpath": null
+      },
+      "license": {
+        "spdx": "MIT",
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml"
+      ],
+      "findings": [],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:npm:dsh-web-ui@0.1.1:scanner-2",
+      "pluginId": "github:zhu1090093659/dsh-web-ui",
+      "versionId": "npm:dsh-web-ui@0.1.1",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "blocked",
+      "manifest": {
+        "hasBundle": false,
+        "hasClient": false,
+        "packageName": "dsh-web-ui",
+        "subpath": null
+      },
+      "license": {
+        "spdx": null,
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [],
+      "signals": {
+        "network": [],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml"
+      ],
+      "findings": [
+        {
+          "id": "manifest-missing",
+          "severity": "high",
+          "label": {
+            "zh": "未识别到有效的 dsh manifest",
+            "en": "No valid dsh manifest found"
+          },
+          "files": [
+            "package.json"
+          ]
+        }
+      ],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    },
+    {
+      "id": "passport:npm:dshmarket@1.10.1:scanner-2",
+      "pluginId": "github:dsh-market/dsh-market",
+      "versionId": "npm:dshmarket@1.10.1",
+      "scannerVersion": 2,
+      "checkedAt": "2026-08-17T05:03:06Z",
+      "trustState": "review_required",
+      "manifest": {
+        "hasBundle": true,
+        "hasClient": true,
+        "packageName": "dshmarket",
+        "subpath": null
+      },
+      "license": {
+        "spdx": null,
+        "file": "LICENSE"
+      },
+      "lifecycleScripts": [
+        "prepare"
+      ],
+      "signals": {
+        "network": [
+          "client/client.js"
+        ],
+        "fs": [],
+        "credentials": [],
+        "dynamicEval": [],
+        "uiHijack": []
+      },
+      "compatibility": {
+        "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+        "profiles": [
+          "web"
+        ],
+        "desktop": "unknown"
+      },
+      "filesInspected": [
+        "package.json",
+        "cordis.patch.yml"
+      ],
+      "findings": [
+        {
+          "id": "lifecycle-script",
+          "severity": "medium",
+          "label": {
+            "zh": "发现安装生命周期脚本：prepare",
+            "en": "Install lifecycle scripts found: prepare"
+          },
+          "files": [
+            "package.json"
+          ]
+        }
+      ],
+      "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "cap.seam.attachments",
+      "layer": "seam",
+      "officialSeam": "ctx.attachments",
+      "title": {
+        "zh": "持久化二进制附件存储",
+        "en": "Durable binary attachment storage"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.attachments。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.attachments. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.llm",
+      "layer": "seam",
+      "officialSeam": "ctx.llm",
+      "title": {
+        "zh": "大模型适配器注册表",
+        "en": "LLM adapter registry"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.llm。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.llm. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.tokenMeter",
+      "layer": "seam",
+      "officialSeam": "ctx.tokenMeter",
+      "title": {
+        "zh": "回放 token 计量",
+        "en": "Replay token measurement"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.tokenMeter。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.tokenMeter. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.toolResultPruner",
+      "layer": "seam",
+      "officialSeam": "ctx.toolResultPruner",
+      "title": {
+        "zh": "无模型工具结果裁剪",
+        "en": "Model-free tool-result pruning"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.toolResultPruner。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.toolResultPruner. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.sessions",
+      "layer": "seam",
+      "officialSeam": "ctx.sessions",
+      "title": {
+        "zh": "内存会话存储",
+        "en": "In-memory session store"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.sessions。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.sessions. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.invariants",
+      "layer": "seam",
+      "officialSeam": "ctx.invariants",
+      "title": {
+        "zh": "包所属不变量注册表",
+        "en": "Package-owned invariant registry"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.invariants。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.invariants. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.typert",
+      "layer": "seam",
+      "officialSeam": "ctx.typert",
+      "title": {
+        "zh": "运行时类型注册表",
+        "en": "Runtime type registry"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.typert。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.typert. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.typertGateway",
+      "layer": "seam",
+      "officialSeam": "ctx.typertGateway",
+      "title": {
+        "zh": "Typert Host 调用网关",
+        "en": "Typert Host invocation gateway"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.typertGateway。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.typertGateway. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.sessionPersistence",
+      "layer": "seam",
+      "officialSeam": "ctx.sessionPersistence",
+      "title": {
+        "zh": "会话持久化 seam",
+        "en": "Durable session persistence seam"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.sessionPersistence。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.sessionPersistence. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.settings",
+      "layer": "seam",
+      "officialSeam": "ctx.settings",
+      "title": {
+        "zh": "用户设置 seam",
+        "en": "User-settings seam"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.settings。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.settings. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.credentials",
+      "layer": "seam",
+      "officialSeam": "ctx.credentials",
+      "title": {
+        "zh": "凭据 seam",
+        "en": "Credential seam"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.credentials。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.credentials. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.sessionTelemetry",
+      "layer": "seam",
+      "officialSeam": "ctx.sessionTelemetry",
+      "title": {
+        "zh": "会话遥测 seam",
+        "en": "Session telemetry seam"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.sessionTelemetry。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.sessionTelemetry. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.storage",
+      "layer": "seam",
+      "officialSeam": "ctx.storage",
+      "title": {
+        "zh": "非会话存储枢纽",
+        "en": "Non-session storage hub"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.storage。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.storage. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.storageDomain",
+      "layer": "seam",
+      "officialSeam": "ctx.storageDomain",
+      "title": {
+        "zh": "领域数据设施",
+        "en": "Domain data facility"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.storageDomain。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.storageDomain. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.messageFeedback",
+      "layer": "seam",
+      "officialSeam": "ctx.messageFeedback",
+      "title": {
+        "zh": "生命周期绑定的消息反馈",
+        "en": "Lifecycle-bound message feedback"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.messageFeedback。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.messageFeedback. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.workspaceRegistry",
+      "layer": "seam",
+      "officialSeam": "ctx.workspaceRegistry",
+      "title": {
+        "zh": "工作区实体注册表",
+        "en": "Workspace entity registry"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.workspaceRegistry。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.workspaceRegistry. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.sessionQuery",
+      "layer": "seam",
+      "officialSeam": "ctx.sessionQuery",
+      "title": {
+        "zh": "会话读取、追踪、过滤与搜索",
+        "en": "Session reads, traces, filters, and search"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.sessionQuery。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.sessionQuery. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.sessionReferenceResolver",
+      "layer": "seam",
+      "officialSeam": "ctx.sessionReferenceResolver",
+      "title": {
+        "zh": "跨会话快照准备",
+        "en": "Cross-session snapshot preparation"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.sessionReferenceResolver。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.sessionReferenceResolver. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.sessionTitle",
+      "layer": "seam",
+      "officialSeam": "ctx.sessionTitle",
+      "title": {
+        "zh": "基于日志的会话标题",
+        "en": "Log-backed session titles"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.sessionTitle。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.sessionTitle. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.systemPrompt",
+      "layer": "seam",
+      "officialSeam": "ctx.systemPrompt",
+      "title": {
+        "zh": "系统提示词装配注册表",
+        "en": "System prompt assembly registry"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.systemPrompt。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.systemPrompt. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.tools",
+      "layer": "seam",
+      "officialSeam": "ctx.tools",
+      "title": {
+        "zh": "工具注册表与受保护执行管线",
+        "en": "Tool registry and guarded execution pipeline"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.tools。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.tools. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.userQuestions",
+      "layer": "seam",
+      "officialSeam": "ctx.userQuestions",
+      "title": {
+        "zh": "人工问答 seam",
+        "en": "Human question/answer seam"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.userQuestions。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.userQuestions. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.planMode",
+      "layer": "seam",
+      "officialSeam": "ctx.planMode",
+      "title": {
+        "zh": "计划协作状态",
+        "en": "Plan collaboration state"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.planMode。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.planMode. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.agentPresets",
+      "layer": "seam",
+      "officialSeam": "ctx.agentPresets",
+      "title": {
+        "zh": "按会话的 agent 组合",
+        "en": "Per-session agent composition"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.agentPresets。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.agentPresets. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.commands",
+      "layer": "seam",
+      "officialSeam": "ctx.commands",
+      "title": {
+        "zh": "面向人的命令注册表",
+        "en": "Human command registry"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.commands。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.commands. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.sessionProjections",
+      "layer": "seam",
+      "officialSeam": "ctx.sessionProjections",
+      "title": {
+        "zh": "会话投影单元",
+        "en": "Session projection units"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.sessionProjections。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.sessionProjections. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.sessionProjectionCache",
+      "layer": "seam",
+      "officialSeam": "ctx.sessionProjectionCache",
+      "title": {
+        "zh": "持久化投影缓存",
+        "en": "Persisted projection cache"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.sessionProjectionCache。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.sessionProjectionCache. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.skills",
+      "layer": "seam",
+      "officialSeam": "ctx.skills",
+      "title": {
+        "zh": "技能提供方注册表",
+        "en": "Skill provider registry"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.skills。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.skills. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.agents",
+      "layer": "seam",
+      "officialSeam": "ctx.agents",
+      "title": {
+        "zh": "Agent 服务",
+        "en": "Agent service"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.agents。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.agents. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.agentDefaultModel",
+      "layer": "seam",
+      "officialSeam": "ctx.agentDefaultModel",
+      "title": {
+        "zh": "默认 Agent 模型选择",
+        "en": "Default Agent model selection"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.agentDefaultModel。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.agentDefaultModel. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.agentLoop",
+      "layer": "seam",
+      "officialSeam": "ctx.agentLoop",
+      "title": {
+        "zh": "具体循环驱动",
+        "en": "Concrete loop driver"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.agentLoop。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.agentLoop. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.goals",
+      "layer": "seam",
+      "officialSeam": "ctx.goals",
+      "title": {
+        "zh": "同会话目标域",
+        "en": "Same-session goal domain"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.goals。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.goals. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.e2b",
+      "layer": "seam",
+      "officialSeam": "ctx.e2b",
+      "title": {
+        "zh": "E2B 沙箱生命周期所有者",
+        "en": "E2B sandbox lifecycle owner"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.e2b。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.e2b. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.subprocess",
+      "layer": "seam",
+      "officialSeam": "ctx.subprocess",
+      "title": {
+        "zh": "子进程 seam",
+        "en": "Subprocess seam"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.subprocess。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.subprocess. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.shell",
+      "layer": "seam",
+      "officialSeam": "ctx.shell",
+      "title": {
+        "zh": "Bash 执行器 seam",
+        "en": "Bash executor seam"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.shell。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.shell. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.shellEnv",
+      "layer": "seam",
+      "officialSeam": "ctx.shellEnv",
+      "title": {
+        "zh": "受管 bash 环境注册表",
+        "en": "Managed bash environment registry"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.shellEnv。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.shellEnv. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.terminals",
+      "layer": "seam",
+      "officialSeam": "ctx.terminals",
+      "title": {
+        "zh": "持久 PTY 会话注册表",
+        "en": "Persistent PTY session registry"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.terminals。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.terminals. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.sandbox",
+      "layer": "seam",
+      "officialSeam": "ctx.sandbox",
+      "title": {
+        "zh": "进程沙箱 seam",
+        "en": "Process-sandbox seam"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.sandbox。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.sandbox. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.sandboxPolicy",
+      "layer": "seam",
+      "officialSeam": "ctx.sandboxPolicy",
+      "title": {
+        "zh": "沙箱策略中心",
+        "en": "Sandbox policy home"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.sandboxPolicy。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.sandboxPolicy. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.approval",
+      "layer": "seam",
+      "officialSeam": "ctx.approval",
+      "title": {
+        "zh": "审批 seam",
+        "en": "Approval seam"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.approval。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.approval. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.permissionPresets",
+      "layer": "seam",
+      "officialSeam": "ctx.permissionPresets",
+      "title": {
+        "zh": "权限预设",
+        "en": "Permission presets"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.permissionPresets。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.permissionPresets. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.codeRuntime",
+      "layer": "seam",
+      "officialSeam": "ctx.codeRuntime",
+      "title": {
+        "zh": "代码执行 seam",
+        "en": "Code-execution seam"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.codeRuntime。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.codeRuntime. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.fs",
+      "layer": "seam",
+      "officialSeam": "ctx.fs",
+      "title": {
+        "zh": "文件系统提供方 seam",
+        "en": "Filesystem provider seam"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.fs。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.fs. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.compaction",
+      "layer": "seam",
+      "officialSeam": "ctx.compaction",
+      "title": {
+        "zh": "压缩 seam",
+        "en": "Compaction seam"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.compaction。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.compaction. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.subagents",
+      "layer": "seam",
+      "officialSeam": "ctx.subagents",
+      "title": {
+        "zh": "子代理提供方与延续服务",
+        "en": "Subagent provider and continuation service"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.subagents。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.subagents. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.jobs",
+      "layer": "seam",
+      "officialSeam": "ctx.jobs",
+      "title": {
+        "zh": "后台任务注册表",
+        "en": "Background job registry"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.jobs。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.jobs. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.web",
+      "layer": "seam",
+      "officialSeam": "ctx.web",
+      "title": {
+        "zh": "Web 访问提供方注册表",
+        "en": "Web access provider registry"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.web。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.web. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.spillStore",
+      "layer": "seam",
+      "officialSeam": "ctx.spillStore",
+      "title": {
+        "zh": "溢出存储 seam",
+        "en": "Spill storage seam"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.spillStore。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.spillStore. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.directoryPicker",
+      "layer": "seam",
+      "officialSeam": "ctx.directoryPicker",
+      "title": {
+        "zh": "工作区目录选择 seam",
+        "en": "Workspace-directory picking seam"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.directoryPicker。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.directoryPicker. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.webServer",
+      "layer": "seam",
+      "officialSeam": "ctx.webServer",
+      "title": {
+        "zh": "HTTP 路由注册",
+        "en": "HTTP route registration"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.webServer。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.webServer. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.clientModules",
+      "layer": "seam",
+      "officialSeam": "ctx.clientModules",
+      "title": {
+        "zh": "客户端插件图宿主",
+        "en": "Client plugin graph host"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.clientModules。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.clientModules. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.workflowEngine",
+      "layer": "seam",
+      "officialSeam": "ctx.workflowEngine",
+      "title": {
+        "zh": "工作流脚本引擎",
+        "en": "Workflow script engine"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.workflowEngine。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.workflowEngine. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.lsp",
+      "layer": "seam",
+      "officialSeam": "ctx.lsp",
+      "title": {
+        "zh": "语言服务器导航 seam",
+        "en": "Language-server navigation seam"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.lsp。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.lsp. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.apiProxy",
+      "layer": "seam",
+      "officialSeam": "ctx.apiProxy",
+      "title": {
+        "zh": "Host API 分发",
+        "en": "Host API dispatch"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.apiProxy。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.apiProxy. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.dynamicCordisRunner",
+      "layer": "seam",
+      "officialSeam": "ctx.dynamicCordisRunner",
+      "title": {
+        "zh": "动态 Cordis 包宿主运行器",
+        "en": "Dynamic Cordis package host runner"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.dynamicCordisRunner。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.dynamicCordisRunner. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.seam.cordisInspect",
+      "layer": "seam",
+      "officialSeam": "ctx.cordisInspect",
+      "title": {
+        "zh": "动态 Cordis 检查注册表",
+        "en": "Dynamic Cordis inspect registry"
+      },
+      "description": {
+        "zh": "官方能力 seam ctx.cordisInspect。词典版本化，不手抄死后不再更新。",
+        "en": "Official capability seam ctx.cordisInspect. Versioned dictionary; do not hand-copy and freeze."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "author"
+      ]
+    },
+    {
+      "id": "cap.product.vision",
+      "layer": "product",
+      "title": {
+        "zh": "视觉识图",
+        "en": "Vision / image understanding"
+      },
+      "description": {
+        "zh": "产品能力：视觉识图",
+        "en": "Product capability: Vision / image understanding"
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "maintainer"
+      ]
+    },
+    {
+      "id": "cap.product.notify",
+      "layer": "product",
+      "title": {
+        "zh": "通知与外发消息",
+        "en": "Notifications and outbound messaging"
+      },
+      "description": {
+        "zh": "产品能力：通知与外发消息",
+        "en": "Product capability: Notifications and outbound messaging"
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "maintainer"
+      ]
+    },
+    {
+      "id": "cap.product.memory",
+      "layer": "product",
+      "title": {
+        "zh": "长期记忆",
+        "en": "Long-term memory"
+      },
+      "description": {
+        "zh": "产品能力：长期记忆",
+        "en": "Product capability: Long-term memory"
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "maintainer"
+      ]
+    },
+    {
+      "id": "cap.product.workflow",
+      "layer": "product",
+      "title": {
+        "zh": "工作流编排",
+        "en": "Workflow orchestration"
+      },
+      "description": {
+        "zh": "产品能力：工作流编排",
+        "en": "Product capability: Workflow orchestration"
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "maintainer"
+      ]
+    },
+    {
+      "id": "cap.product.browser",
+      "layer": "product",
+      "title": {
+        "zh": "浏览器发布与自动化",
+        "en": "Browser publishing and automation"
+      },
+      "description": {
+        "zh": "产品能力：浏览器发布与自动化",
+        "en": "Product capability: Browser publishing and automation"
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "maintainer"
+      ]
+    },
+    {
+      "id": "cap.product.theme",
+      "layer": "product",
+      "title": {
+        "zh": "主题与外观",
+        "en": "Themes and appearance"
+      },
+      "description": {
+        "zh": "产品能力：主题与外观",
+        "en": "Product capability: Themes and appearance"
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "maintainer"
+      ]
+    },
+    {
+      "id": "cap.product.multi-model",
+      "layer": "product",
+      "title": {
+        "zh": "多模型路由",
+        "en": "Multi-model routing"
+      },
+      "description": {
+        "zh": "产品能力：多模型路由",
+        "en": "Product capability: Multi-model routing"
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "maintainer"
+      ]
+    },
+    {
+      "id": "cap.product.terminal",
+      "layer": "product",
+      "title": {
+        "zh": "终端 / TUI 客户端",
+        "en": "Terminal / TUI clients"
+      },
+      "description": {
+        "zh": "产品能力：终端 / TUI 客户端",
+        "en": "Product capability: Terminal / TUI clients"
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "maintainer"
+      ]
+    },
+    {
+      "id": "cap.product.market",
+      "layer": "product",
+      "title": {
+        "zh": "插件市场与管理",
+        "en": "Plugin markets and managers"
+      },
+      "description": {
+        "zh": "产品能力：插件市场与管理",
+        "en": "Product capability: Plugin markets and managers"
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "maintainer"
+      ]
+    },
+    {
+      "id": "cap.product.materials",
+      "layer": "product",
+      "title": {
+        "zh": "素材库",
+        "en": "Media asset libraries"
+      },
+      "description": {
+        "zh": "产品能力：素材库",
+        "en": "Product capability: Media asset libraries"
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "maintainer"
+      ]
+    },
+    {
+      "id": "cap.product.security",
+      "layer": "product",
+      "title": {
+        "zh": "安全审计与策略",
+        "en": "Security audit and policy"
+      },
+      "description": {
+        "zh": "产品能力：安全审计与策略",
+        "en": "Product capability: Security audit and policy"
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "scanner",
+        "maintainer"
+      ]
+    },
+    {
+      "id": "cap.scene.we-media",
+      "layer": "scene",
+      "title": {
+        "zh": "自媒体创作",
+        "en": "We-media / creator workflows"
+      },
+      "description": {
+        "zh": "场景能力：自媒体创作。只有插件包或维护者可标注。",
+        "en": "Scene capability: We-media / creator workflows. Packs or maintainers only."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "maintainer",
+        "pack"
+      ]
+    },
+    {
+      "id": "cap.scene.research",
+      "layer": "scene",
+      "title": {
+        "zh": "研究",
+        "en": "Research workflows"
+      },
+      "description": {
+        "zh": "场景能力：研究。只有插件包或维护者可标注。",
+        "en": "Scene capability: Research workflows. Packs or maintainers only."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "maintainer",
+        "pack"
+      ]
+    },
+    {
+      "id": "cap.scene.office",
+      "layer": "scene",
+      "title": {
+        "zh": "办公",
+        "en": "Office productivity"
+      },
+      "description": {
+        "zh": "场景能力：办公。只有插件包或维护者可标注。",
+        "en": "Scene capability: Office productivity. Packs or maintainers only."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "maintainer",
+        "pack"
+      ]
+    },
+    {
+      "id": "cap.scene.devops",
+      "layer": "scene",
+      "title": {
+        "zh": "开发运维",
+        "en": "Development and operations"
+      },
+      "description": {
+        "zh": "场景能力：开发运维。只有插件包或维护者可标注。",
+        "en": "Scene capability: Development and operations. Packs or maintainers only."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "maintainer",
+        "pack"
+      ]
+    },
+    {
+      "id": "cap.scene.education",
+      "layer": "scene",
+      "title": {
+        "zh": "教育",
+        "en": "Education"
+      },
+      "description": {
+        "zh": "场景能力：教育。只有插件包或维护者可标注。",
+        "en": "Scene capability: Education. Packs or maintainers only."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "maintainer",
+        "pack"
+      ]
+    },
+    {
+      "id": "cap.scene.enterprise-kb",
+      "layer": "scene",
+      "title": {
+        "zh": "企业知识库",
+        "en": "Enterprise knowledge bases"
+      },
+      "description": {
+        "zh": "场景能力：企业知识库。只有插件包或维护者可标注。",
+        "en": "Scene capability: Enterprise knowledge bases. Packs or maintainers only."
+      },
+      "taxonomyVersion": 1,
+      "annotators": [
+        "maintainer",
+        "pack"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "schemaVersion": 1,
+      "id": "github:AKS1st/dsh-cyber-particle",
+      "publisher": "AKS1st",
+      "title": {
+        "zh": "Cyber Particle 主题",
+        "en": "Cyber Particle theme"
+      },
+      "description": {
+        "zh": "主题插件，自动发现进入候选，无安装按钮。主题默认互斥。",
+        "en": "Theme plugin admitted as a candidate. No install button. Themes are mutually exclusive."
+      },
+      "fetchedAt": "2026-08-17T05:03:06Z",
+      "awesomeCategory": "theme",
+      "trustState": "candidate",
+      "sources": [
+        "discovered"
+      ],
+      "stars": {
+        "count": 5,
+        "fetchedAt": "2026-08-17T05:03:06Z",
+        "source": "awesome-dsh-plugin.com/plugins.json@2026-08-17"
+      },
+      "repository": "https://github.com/AKS1st/dsh-cyber-particle",
+      "license": "MIT",
+      "versions": [
+        {
+          "id": "git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "pluginId": "github:AKS1st/dsh-cyber-particle",
+          "releasedAt": "2026-08-17T05:03:06Z",
+          "yanked": false,
+          "hasBundle": true,
+          "hasClient": false,
+          "lifecycleScripts": [],
+          "passportId": "passport:git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:scanner-2",
+          "capabilityClaims": [
+            "cap.product.theme"
+          ],
+          "compatibility": {
+            "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+            "profiles": [
+              "web"
+            ],
+            "desktop": "unknown",
+            "testedDsh": [
+              "untested"
+            ]
+          },
+          "installTarget": {
+            "pluginId": "github:AKS1st/dsh-cyber-particle",
+            "versionId": "git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "packageName": "dsh-cyber-particle",
+            "subpath": null,
+            "profile": "web",
+            "requiresBuildPermission": false,
+            "expectedBundle": true,
+            "passportId": "passport:git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:scanner-2",
+            "lockedSpec": "github:AKS1st/dsh-cyber-particle#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        }
+      ],
+      "defaultVersionId": "git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://store.dsh.dev/protocol/capability.json",
+  "title": "Capability",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "layer", "title", "description", "taxonomyVersion"],
+  "properties": {
+    "id": { "$ref": "ids.json#/$defs/capabilityId" },
+    "layer": { "type": "string", "enum": ["seam", "product", "scene"] },
+    "title": { "$ref": "ids.json#/$defs/bilingual" },
+    "description": { "$ref": "ids.json#/$defs/bilingual" },
+    "taxonomyVersion": { "type": "integer", "minimum": 1 },
+    "officialSeam": {
+      "type": "string",
+      "pattern": "^ctx\\.[A-Za-z][A-Za-z0-9]*$",
+      "description": "Only for cap.seam.* entries. Official ctx.* service name."
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "annotators": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["scanner", "maintainer", "pack", "author"] }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "layer": { "const": "seam" } } },
+      "then": { "required": ["officialSeam"] }
+    },
+    {
+      "if": { "properties": { "layer": { "const": "scene" } } },
+      "then": {
+        "properties": {
+          "annotators": {
+            "type": "array",
+            "items": { "type": "string", "enum": ["maintainer", "pack"] }
+          }
+        }
+      }
+    }
+  ]
+}

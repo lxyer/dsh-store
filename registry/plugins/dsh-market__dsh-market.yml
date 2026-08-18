@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: "github:dsh-market/dsh-market"
+publisher: dsh-market
+npmName: dshmarket
+title:
+  zh: dsh-market
+  en: dsh-market
+description:
+  zh: "设置页内市场。另开 settings.section id=market，不是 DSH Store 要抄的路。"
+  en: "In-settings market. Registers a separate settings.section id=market; DSH Store must not copy that path."
+fetchedAt: "2026-08-17T05:03:06Z"
+awesomeCategory: market
+trustState: review_required
+sources:
+  - curated
+stars:
+  count: 654
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: "awesome-dsh-plugin.com/plugins.json@2026-08-17"
+repository: "https://github.com/dsh-market/dsh-market"
+versions:
+  - id: "npm:dshmarket@1.10.1"
+    pluginId: "github:dsh-market/dsh-market"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: true
+    hasClient: true
+    lifecycleScripts:
+      - prepare
+    passportId: "passport:npm:dshmarket@1.10.1:scanner-2"
+    capabilityClaims:
+      - cap.product.market
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - web
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:dsh-market/dsh-market"
+      versionId: "npm:dshmarket@1.10.1"
+      packageName: dshmarket
+      subpath: null
+      profile: web
+      requiresBuildPermission: true
+      expectedBundle: true
+      passportId: "passport:npm:dshmarket@1.10.1:scanner-2"
+      lockedSpec: "dshmarket@1.10.1"
+defaultVersionId: "npm:dshmarket@1.10.1"

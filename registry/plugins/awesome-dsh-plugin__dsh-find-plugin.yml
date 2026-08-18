@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: "github:awesome-dsh-plugin/dsh-find-plugin"
+publisher: awesome-dsh-plugin
+npmName: dsh-find-plugin
+title:
+  zh: Find Plugin
+  en: Find Plugin
+description:
+  zh: 会话内按精选列表搜插件。Agent 可直接装是反面教材。
+  en: In-session search of the curated list. Agent-direct install is the anti-pattern.
+fetchedAt: "2026-08-17T05:03:06Z"
+awesomeCategory: tools
+trustState: screened
+sources:
+  - curated
+stars:
+  count: 40
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: "awesome-dsh-plugin.com/plugins.json@2026-08-17"
+repository: "https://github.com/awesome-dsh-plugin/dsh-find-plugin"
+license: MIT
+versions:
+  - id: "npm:dsh-find-plugin@0.3.5"
+    pluginId: "github:awesome-dsh-plugin/dsh-find-plugin"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: true
+    hasClient: false
+    lifecycleScripts: []
+    passportId: "passport:npm:dsh-find-plugin@0.3.5:scanner-2"
+    capabilityClaims:
+      - cap.product.market
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - web
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:awesome-dsh-plugin/dsh-find-plugin"
+      versionId: "npm:dsh-find-plugin@0.3.5"
+      packageName: dsh-find-plugin
+      subpath: null
+      profile: web
+      requiresBuildPermission: false
+      expectedBundle: true
+      passportId: "passport:npm:dsh-find-plugin@0.3.5:scanner-2"
+      lockedSpec: "dsh-find-plugin@0.3.5"
+defaultVersionId: "npm:dsh-find-plugin@0.3.5"

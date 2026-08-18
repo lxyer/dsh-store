@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: "github:Jamailar/beav-deepseek-harness"
+publisher: Jamailar
+npmName: beav-creator-dsh
+title:
+  zh: Beav Creator
+  en: Beav Creator
+description:
+  zh: hub clear 插件，可作为创作者工作流候选，但不是官方场景认证。
+  en: Hub-clear plugin that may help creator workflows; not an official scene certification.
+fetchedAt: "2026-08-17T05:03:06Z"
+sourceCommit: 05f947af0d18f348a6c282ae976b0affddf522a1
+awesomeCategory: workflow
+scenes:
+  - cap.scene.we-media
+trustState: installable
+sources:
+  - discovered
+stars:
+  count: 0
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: "plugin-hub /api/plugins@2026-08-17T00:00:55.669Z"
+repository: "https://github.com/Jamailar/beav-deepseek-harness"
+license: MIT
+versions:
+  - id: "git:github.com/Jamailar/beav-deepseek-harness@05f947af0d18f348a6c282ae976b0affddf522a1"
+    pluginId: "github:Jamailar/beav-deepseek-harness"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: true
+    hasClient: false
+    lifecycleScripts: []
+    passportId: "passport:git:github.com/Jamailar/beav-deepseek-harness@05f947af0d18f348a6c282ae976b0affddf522a1:scanner-2"
+    capabilityClaims:
+      - cap.product.workflow
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - web
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:Jamailar/beav-deepseek-harness"
+      versionId: "git:github.com/Jamailar/beav-deepseek-harness@05f947af0d18f348a6c282ae976b0affddf522a1"
+      packageName: beav-creator-dsh
+      subpath: null
+      profile: web
+      requiresBuildPermission: false
+      expectedBundle: true
+      passportId: "passport:git:github.com/Jamailar/beav-deepseek-harness@05f947af0d18f348a6c282ae976b0affddf522a1:scanner-2"
+      lockedSpec: "github:Jamailar/beav-deepseek-harness#05f947af0d18f348a6c282ae976b0affddf522a1"
+defaultVersionId: "git:github.com/Jamailar/beav-deepseek-harness@05f947af0d18f348a6c282ae976b0affddf522a1"

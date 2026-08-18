@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://store.dsh.dev/protocol/review.json",
+  "title": "Review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "pluginId",
+    "versionId",
+    "identity",
+    "identityKind",
+    "identityCreatedAt",
+    "dimensions",
+    "body",
+    "createdAt",
+    "published",
+    "status"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^rev_" },
+    "pluginId": { "$ref": "ids.json#/$defs/pluginId" },
+    "versionId": { "$ref": "ids.json#/$defs/versionId" },
+    "identity": {
+      "type": "string",
+      "pattern": "^(github|journal):[A-Za-z0-9_.-]+$",
+      "description": "GitHub login or install-journal proof. Anonymous identities are rejected."
+    },
+    "identityKind": { "type": "string", "enum": ["github", "journal"] },
+    "identityCreatedAt": { "type": "string", "format": "date-time" },
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["works", "docs", "safety", "maintenance", "ux"],
+      "properties": {
+        "works": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "docs": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "safety": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "maintenance": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "ux": { "type": "integer", "minimum": 1, "maximum": 5 }
+      }
+    },
+    "body": { "type": "string", "maxLength": 2000 },
+    "installJournalId": { "type": "string", "pattern": "^jrnl_" },
+    "capabilityFills": {
+      "type": "array",
+      "items": { "$ref": "ids.json#/$defs/capabilityId" }
+    },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "published": { "type": "boolean" },
+    "status": { "type": "string", "enum": ["published", "moderation"] },
+    "reportHref": { "type": "string" }
+  }
+}

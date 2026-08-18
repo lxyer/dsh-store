@@ -1,0 +1,54 @@
+schemaVersion: 1
+id: "github:linxin666/dsh-web-ui-all"
+publisher: linxin666
+npmName: "@linxin666/dsh-web-ui-all"
+aliases:
+  - "github:zhu1090093659/dsh-web-ui#packages/dsh-web-ui-all"
+title:
+  zh: 侵入式 Web UI 合集
+  en: Invasive Web UI pack
+description:
+  zh: 会遮挡官方设置的侵入式 Web UI。本机已清理，默认 blocked。
+  en: Invasive Web UI that occludes official Settings. Removed locally; default blocked.
+fetchedAt: "2026-08-17T05:03:06Z"
+awesomeCategory: ui
+trustState: blocked
+blockedReason:
+  zh: 侵入式 Web UI 会遮挡官方设置，禁止一键安装。
+  en: Invasive Web UI occludes official Settings; one-click install is forbidden.
+sources:
+  - discovered
+stars:
+  count: 0
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: "local-observation@2026-08-17"
+repository: "https://github.com/linxin666/dsh-web-ui-all"
+versions:
+  - id: "npm:@linxin666/dsh-web-ui-all@0.0.0"
+    pluginId: "github:linxin666/dsh-web-ui-all"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: true
+    hasClient: true
+    lifecycleScripts: []
+    passportId: "passport:npm:@linxin666/dsh-web-ui-all@0.0.0:scanner-2"
+    capabilityClaims:
+      - cap.product.theme
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - web
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:linxin666/dsh-web-ui-all"
+      versionId: "npm:@linxin666/dsh-web-ui-all@0.0.0"
+      packageName: "@linxin666/dsh-web-ui-all"
+      subpath: null
+      profile: web
+      requiresBuildPermission: false
+      expectedBundle: true
+      passportId: "passport:npm:@linxin666/dsh-web-ui-all@0.0.0:scanner-2"
+      lockedSpec: "@linxin666/dsh-web-ui-all@0.0.0"
+defaultVersionId: "npm:@linxin666/dsh-web-ui-all@0.0.0"

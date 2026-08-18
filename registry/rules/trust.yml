@@ -1,0 +1,33 @@
+scannerVersion: 2
+cannotPromoteTo:
+  - installable
+  - featured
+states:
+  candidate:
+    - public repo
+    - parseable id
+    - not obvious spam
+  screened:
+    - dsh.bundle present
+    - license readable
+    - immutable version
+    - passport written
+  review_required:
+    - lifecycle scripts
+    - credential/network/fs high signal
+    - insufficient evidence
+  installable:
+    - human or high-confidence rule
+    - subpath resolved
+    - immutable version
+    - passport exists
+    - not blocked
+  featured:
+    - maintainer willing to recommend
+    - still not a safety guarantee
+  blocked:
+    - no valid manifest
+    - malicious signal
+    - official UI hijack
+    - unusable license
+    - explicit takedown

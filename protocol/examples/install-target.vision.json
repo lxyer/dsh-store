@@ -1,0 +1,12 @@
+{
+  "pluginId": "github:Anionex/dsh-vision-toolkit",
+  "versionId": "npm:@anionex/dsh-vision-toolkit@0.1.18",
+  "packageName": "@anionex/dsh-vision-toolkit",
+  "subpath": null,
+  "integrity": "sha512-BHCKRbUVlASegV8W1AFX+QuSRGp+xDZIF4foJR63o4o920WUAYgbpI1kfksUq6IGvN1NjGOLpmYs6Wj57fPNCw==",
+  "profile": "web",
+  "requiresBuildPermission": false,
+  "expectedBundle": true,
+  "passportId": "passport:npm:@anionex/dsh-vision-toolkit@0.1.18:scanner-2",
+  "lockedSpec": "@anionex/dsh-vision-toolkit@0.1.18"
+}

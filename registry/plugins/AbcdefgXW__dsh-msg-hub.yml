@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: "github:AbcdefgXW/dsh-msg-hub"
+publisher: AbcdefgXW
+npmName: dsh-msg-hub
+title:
+  zh: 消息中枢
+  en: Message Hub
+description:
+  zh: 通知/集成向的消息中枢，精选列表收录，尚未晋升到可安装。
+  en: "Notification/integration message hub. Curated, not yet promoted to installable."
+fetchedAt: "2026-08-17T05:03:06Z"
+awesomeCategory: notify
+scenes:
+  - cap.scene.we-media
+trustState: screened
+sources:
+  - curated
+stars:
+  count: 0
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: "awesome-dsh-plugin.com/plugins.json@2026-08-17"
+repository: "https://github.com/AbcdefgXW/dsh-msg-hub"
+license: MIT
+versions:
+  - id: "npm:dsh-msg-hub@0.0.1"
+    pluginId: "github:AbcdefgXW/dsh-msg-hub"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: true
+    hasClient: false
+    lifecycleScripts: []
+    passportId: "passport:npm:dsh-msg-hub@0.0.1:scanner-2"
+    capabilityClaims:
+      - cap.product.notify
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - web
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:AbcdefgXW/dsh-msg-hub"
+      versionId: "npm:dsh-msg-hub@0.0.1"
+      packageName: dsh-msg-hub
+      subpath: null
+      profile: web
+      requiresBuildPermission: false
+      expectedBundle: true
+      passportId: "passport:npm:dsh-msg-hub@0.0.1:scanner-2"
+      lockedSpec: "dsh-msg-hub@0.0.1"
+defaultVersionId: "npm:dsh-msg-hub@0.0.1"

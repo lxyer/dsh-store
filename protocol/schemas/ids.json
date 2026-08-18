@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://store.dsh.dev/protocol/ids.json",
+  "title": "DSH Store identifier patterns",
+  "$defs": {
+    "pluginId": {
+      "type": "string",
+      "pattern": "^github:[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+(#[A-Za-z0-9_./-]+)?$",
+      "description": "Stable plugin id. Monorepo subpackages use github:owner/repo#subpath."
+    },
+    "npmVersionId": {
+      "type": "string",
+      "pattern": "^npm:(@?[A-Za-z0-9_.~/-]+)@([0-9]+\\.[0-9]+\\.[0-9]+[A-Za-z0-9_.+-]*)$"
+    },
+    "gitVersionId": {
+      "type": "string",
+      "pattern": "^git:[A-Za-z0-9.-]+/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+@[a-f0-9]{40}$"
+    },
+    "versionId": {
+      "oneOf": [
+        { "$ref": "#/$defs/npmVersionId" },
+        { "$ref": "#/$defs/gitVersionId" }
+      ]
+    },
+    "packId": {
+      "type": "string",
+      "pattern": "^pack:[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
+    },
+    "capabilityId": {
+      "type": "string",
+      "pattern": "^cap\\.(seam|product|scene)\\.[A-Za-z0-9_.-]+$"
+    },
+    "passportId": {
+      "type": "string",
+      "pattern": "^passport:(npm:.+|git:.+):scanner-[0-9]+$"
+    },
+    "semver": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+[A-Za-z0-9_.+-]*$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^sha256:[a-f0-9]{64}$"
+    },
+    "sri": {
+      "type": "string",
+      "pattern": "^sha(256|512)-[A-Za-z0-9+/=]+$"
+    },
+    "integrity": {
+      "oneOf": [
+        { "$ref": "#/$defs/sha256" },
+        { "$ref": "#/$defs/sri" }
+      ]
+    },
+    "bilingual": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["zh", "en"],
+      "properties": {
+        "zh": { "type": "string", "minLength": 1 },
+        "en": { "type": "string", "minLength": 1 }
+      }
+    },
+    "trustState": {
+      "type": "string",
+      "enum": [
+        "discovered",
+        "candidate",
+        "screened",
+        "review_required",
+        "installable",
+        "featured",
+        "blocked"
+      ]
+    },
+    "activationState": {
+      "type": "string",
+      "enum": ["live", "restart", "inert", "broken"]
+    },
+    "sourceKind": {
+      "type": "string",
+      "enum": [
+        "curated",
+        "discovered",
+        "author_pr",
+        "official_pack",
+        "community_pack",
+        "user_pack"
+      ]
+    },
+    "profileName": {
+      "type": "string",
+      "enum": ["web", "headless", "desktop", "any"]
+    }
+  }
+}

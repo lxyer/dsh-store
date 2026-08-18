@@ -1,0 +1,11 @@
+{
+  "name": "@dsh-store/fixture-real-plugin",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Positive fixture: the real installable subpackage.",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

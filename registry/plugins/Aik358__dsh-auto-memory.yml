@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: "github:Aik358/dsh-auto-memory"
+publisher: Aik358
+npmName: "@a9i5k4/dsh-auto-memory"
+title:
+  zh: Auto Memory
+  en: Auto Memory
+description:
+  zh: 三层记忆自动注入与检索。存在文件系统与凭据静态信号，需人工复核。
+  en: Three-layer auto memory. Filesystem and credential static signals require review.
+fetchedAt: "2026-08-17T05:03:06Z"
+awesomeCategory: memory
+trustState: review_required
+sources:
+  - discovered
+stars:
+  count: 11
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: "awesome-dsh-plugin.com/plugins.json@2026-08-17"
+repository: "https://github.com/Aik358/dsh-auto-memory"
+license: BSD-3-Clause
+versions:
+  - id: "npm:@a9i5k4/dsh-auto-memory@0.1.7"
+    pluginId: "github:Aik358/dsh-auto-memory"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: true
+    hasClient: true
+    lifecycleScripts: []
+    passportId: "passport:npm:@a9i5k4/dsh-auto-memory@0.1.7:scanner-2"
+    capabilityClaims:
+      - cap.product.memory
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - web
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:Aik358/dsh-auto-memory"
+      versionId: "npm:@a9i5k4/dsh-auto-memory@0.1.7"
+      packageName: "@a9i5k4/dsh-auto-memory"
+      subpath: null
+      profile: web
+      requiresBuildPermission: false
+      expectedBundle: true
+      passportId: "passport:npm:@a9i5k4/dsh-auto-memory@0.1.7:scanner-2"
+      lockedSpec: "@a9i5k4/dsh-auto-memory@0.1.7"
+defaultVersionId: "npm:@a9i5k4/dsh-auto-memory@0.1.7"

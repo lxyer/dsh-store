@@ -1,0 +1,41 @@
+{
+  "id": "pack:dsh-store/we-media-starter",
+  "version": "0.1.0",
+  "lockVersion": 1,
+  "profileTarget": "web",
+  "entries": [
+    {
+      "pluginId": "github:Anionex/dsh-vision-toolkit",
+      "versionId": "npm:@anionex/dsh-vision-toolkit@0.1.18",
+      "integrity": "sha512-BHCKRbUVlASegV8W1AFX+QuSRGp+xDZIF4foJR63o4o920WUAYgbpI1kfksUq6IGvN1NjGOLpmYs6Wj57fPNCw==",
+      "role": "alreadyCovered",
+      "fills": ["cap.product.vision"]
+    },
+    {
+      "pluginId": "github:renpengfei1027/dsh-web-notify",
+      "versionId": "npm:dsh-web-notify@0.1.4",
+      "integrity": "sha256:e3125aa901cd5d0b4112b2a650234287b8547b4a3c416654138ba6064c70393d",
+      "role": "required",
+      "fills": ["cap.product.notify"]
+    }
+  ],
+  "mutexGroups": [
+    { "id": "theme", "policy": "single" }
+  ],
+  "conflicts": [
+    {
+      "pluginId": "github:linxin666/dsh-web-ui-all",
+      "reason": "侵入式 Web UI 会遮挡官方设置"
+    }
+  ],
+  "installPolicy": {
+    "stopOnBlocked": true,
+    "requirePassport": true,
+    "allowCandidate": false
+  },
+  "strip": {
+    "secrets": true,
+    "localPaths": true,
+    "settingsValues": true
+  }
+}

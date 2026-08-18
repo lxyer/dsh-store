@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-store-fixture-real-plugin
+      name: "@dsh-store/fixture-real-plugin"

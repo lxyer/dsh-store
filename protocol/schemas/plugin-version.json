@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://store.dsh.dev/protocol/plugin-version.json",
+  "title": "PluginVersion",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "pluginId", "releasedAt", "installTarget", "compatibility"],
+  "properties": {
+    "id": { "$ref": "ids.json#/$defs/versionId" },
+    "pluginId": { "$ref": "ids.json#/$defs/pluginId" },
+    "releasedAt": { "type": "string", "format": "date-time" },
+    "yanked": { "type": "boolean", "default": false },
+    "hasBundle": { "type": "boolean" },
+    "hasClient": { "type": "boolean" },
+    "lifecycleScripts": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["preinstall", "install", "prepare", "postinstall"]
+      }
+    },
+    "installTarget": { "$ref": "install-target.json" },
+    "passportId": { "$ref": "ids.json#/$defs/passportId" },
+    "capabilityClaims": {
+      "type": "array",
+      "items": { "$ref": "ids.json#/$defs/capabilityId" }
+    },
+    "compatibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["dshRange", "profiles", "desktop"],
+      "properties": {
+        "dshRange": { "type": "string", "minLength": 1 },
+        "profiles": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "ids.json#/$defs/profileName" }
+        },
+        "desktop": { "type": "string", "enum": ["yes", "no", "unknown"] },
+        "testedDsh": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "releaseNotes": { "$ref": "ids.json#/$defs/bilingual" }
+  }
+}

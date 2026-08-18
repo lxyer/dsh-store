@@ -1,0 +1,32 @@
+id: "pack:dsh-store/we-media-starter"
+version: 0.1.0
+title:
+  zh: 自媒体起步包
+  en: We-media starter pack
+description:
+  zh: 保留已装视觉工具，不重复安装；只补已经 installable 的通知能力。工作流条目不足时标 partial。
+  en: "Keep the installed vision toolkit, do not reinstall it, and only add installable notify coverage. Mark partial when workflow is still missing."
+kind: official
+profileTarget: web
+entries:
+  - ref: "github:Anionex/dsh-vision-toolkit"
+    version: "npm:@anionex/dsh-vision-toolkit@0.1.18"
+    role: alreadyCovered
+  - ref: "github:renpengfei1027/dsh-web-notify"
+    version: "npm:dsh-web-notify@0.1.4"
+    role: required
+mutexGroups:
+  - id: theme
+    policy: single
+conflicts:
+  - plugin: "github:linxin666/dsh-web-ui-all"
+    reason: 侵入式 Web UI 会遮挡官方设置
+capabilityCoverage:
+  - cap.scene.we-media
+  - cap.product.vision
+  - cap.product.notify
+installPolicy:
+  stopOnBlocked: true
+  requirePassport: true
+  allowCandidate: false
+completeness: partial

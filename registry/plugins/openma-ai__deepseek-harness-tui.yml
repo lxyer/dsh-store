@@ -1,0 +1,52 @@
+schemaVersion: 1
+id: "github:openma-ai/deepseek-harness-tui"
+publisher: openma-ai
+title:
+  zh: deepseek-harness-tui
+  en: deepseek-harness-tui
+description:
+  zh: Rust/ratatui 终端客户端。hub 因无有效 dsh manifest 标 blocked。
+  en: Rust/ratatui terminal client. Hub blocked it for a missing dsh manifest.
+fetchedAt: "2026-08-17T05:03:06Z"
+awesomeCategory: ui
+trustState: blocked
+blockedReason:
+  zh: 未识别到有效的 dsh manifest，不能给出安装命令。
+  en: No valid dsh manifest found; no install command may be emitted.
+sources:
+  - curated
+stars:
+  count: 34
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: "awesome-dsh-plugin.com/plugins.json@2026-08-17"
+repository: "https://github.com/openma-ai/deepseek-harness-tui"
+license: MIT
+versions:
+  - id: "git:github.com/openma-ai/deepseek-harness-tui@0000000000000000000000000000000000000001"
+    pluginId: "github:openma-ai/deepseek-harness-tui"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: false
+    hasClient: false
+    lifecycleScripts: []
+    passportId: "passport:git:github.com/openma-ai/deepseek-harness-tui@0000000000000000000000000000000000000001:scanner-2"
+    capabilityClaims:
+      - cap.product.terminal
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - headless
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:openma-ai/deepseek-harness-tui"
+      versionId: "git:github.com/openma-ai/deepseek-harness-tui@0000000000000000000000000000000000000001"
+      packageName: deepseek-harness-tui
+      subpath: null
+      profile: headless
+      requiresBuildPermission: false
+      expectedBundle: false
+      passportId: "passport:git:github.com/openma-ai/deepseek-harness-tui@0000000000000000000000000000000000000001:scanner-2"
+      lockedSpec: "github:openma-ai/deepseek-harness-tui#0000000000000000000000000000000000000001"
+defaultVersionId: "git:github.com/openma-ai/deepseek-harness-tui@0000000000000000000000000000000000000001"

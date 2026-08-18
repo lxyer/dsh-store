@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://store.dsh.dev/protocol/pack-lock.json",
+  "title": "PackLock",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "version",
+    "lockVersion",
+    "profileTarget",
+    "entries",
+    "installPolicy",
+    "strip"
+  ],
+  "properties": {
+    "id": { "$ref": "ids.json#/$defs/packId" },
+    "version": { "$ref": "ids.json#/$defs/semver" },
+    "lockVersion": { "type": "integer", "const": 1 },
+    "profileTarget": { "$ref": "ids.json#/$defs/profileName" },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["pluginId", "versionId", "role"],
+        "properties": {
+          "pluginId": { "$ref": "ids.json#/$defs/pluginId" },
+          "versionId": { "$ref": "ids.json#/$defs/versionId" },
+          "integrity": { "$ref": "ids.json#/$defs/integrity" },
+          "role": { "type": "string", "enum": ["required", "optional", "alreadyCovered"] },
+          "fills": {
+            "type": "array",
+            "items": { "$ref": "ids.json#/$defs/capabilityId" }
+          }
+        }
+      }
+    },
+    "mutexGroups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "policy"],
+        "properties": {
+          "id": { "type": "string" },
+          "policy": { "type": "string", "enum": ["single"] }
+        }
+      }
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["pluginId", "reason"],
+        "properties": {
+          "pluginId": { "$ref": "ids.json#/$defs/pluginId" },
+          "reason": { "type": "string" }
+        }
+      }
+    },
+    "installPolicy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stopOnBlocked", "requirePassport", "allowCandidate"],
+      "properties": {
+        "stopOnBlocked": { "type": "boolean" },
+        "requirePassport": { "type": "boolean" },
+        "allowCandidate": { "type": "boolean" }
+      }
+    },
+    "strip": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["secrets", "localPaths", "settingsValues"],
+      "properties": {
+        "secrets": { "type": "boolean", "const": true },
+        "localPaths": { "type": "boolean", "const": true },
+        "settingsValues": { "type": "boolean", "const": true }
+      }
+    }
+  }
+}

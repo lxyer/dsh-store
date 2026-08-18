@@ -1,0 +1,7 @@
+taxonomyVersion: 1
+fetchedAt: "2026-08-17T05:03:06Z"
+officialSeams:
+  count: 56
+  source: "https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/capability-seams.zh.md"
+  capturedAt: 2026-08-17
+note: Do not treat this snapshot as the last official list. Refresh from capability-seams.zh.md.

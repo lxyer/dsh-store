@@ -1,0 +1,22 @@
+{
+  "id": "rev_01",
+  "pluginId": "github:renpengfei1027/dsh-web-notify",
+  "versionId": "npm:dsh-web-notify@0.1.4",
+  "identity": "github:alice",
+  "identityKind": "github",
+  "identityCreatedAt": "2020-01-01T00:00:00.000Z",
+  "dimensions": {
+    "works": 5,
+    "docs": 4,
+    "safety": 4,
+    "maintenance": 3,
+    "ux": 4
+  },
+  "body": "装进隔离 profile 后 live，没有改官方设置。",
+  "installJournalId": "jrnl_01",
+  "capabilityFills": ["cap.product.notify"],
+  "createdAt": "2026-08-17T05:03:06.000Z",
+  "published": true,
+  "status": "published",
+  "reportHref": "/api/v1/reviews/rev_01/report"
+}

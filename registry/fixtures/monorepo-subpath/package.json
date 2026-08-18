@@ -1,0 +1,6 @@
+{
+  "name": "@dsh-store/fixture-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Negative fixture: monorepo root must not be treated as the install target."
+}

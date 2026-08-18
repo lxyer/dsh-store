@@ -1,0 +1,39 @@
+{
+  "id": "passport:git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:scanner-2",
+  "pluginId": "github:AKS1st/dsh-cyber-particle",
+  "versionId": "git:github.com/AKS1st/dsh-cyber-particle@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "scannerVersion": 2,
+  "checkedAt": "2026-08-17T05:03:06Z",
+  "trustState": "candidate",
+  "manifest": {
+    "hasBundle": true,
+    "hasClient": false,
+    "packageName": "dsh-cyber-particle",
+    "subpath": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "file": "LICENSE"
+  },
+  "lifecycleScripts": [],
+  "signals": {
+    "network": [],
+    "fs": [],
+    "credentials": [],
+    "dynamicEval": [],
+    "uiHijack": []
+  },
+  "compatibility": {
+    "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+    "profiles": [
+      "web"
+    ],
+    "desktop": "unknown"
+  },
+  "filesInspected": [
+    "package.json",
+    "cordis.patch.yml"
+  ],
+  "findings": [],
+  "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+}

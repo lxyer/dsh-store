@@ -1,0 +1,39 @@
+{
+  "id": "passport:git:github.com/dfkai/dsh-board@5375c0920f8a04a3208f4d70719656455113da5d:scanner-2",
+  "pluginId": "github:dfkai/dsh-board",
+  "versionId": "git:github.com/dfkai/dsh-board@5375c0920f8a04a3208f4d70719656455113da5d",
+  "scannerVersion": 2,
+  "checkedAt": "2026-08-17T05:03:06Z",
+  "trustState": "installable",
+  "manifest": {
+    "hasBundle": true,
+    "hasClient": false,
+    "packageName": "dsh-board",
+    "subpath": null
+  },
+  "license": {
+    "spdx": "MIT",
+    "file": "LICENSE"
+  },
+  "lifecycleScripts": [],
+  "signals": {
+    "network": [],
+    "fs": [],
+    "credentials": [],
+    "dynamicEval": [],
+    "uiHijack": []
+  },
+  "compatibility": {
+    "dshRange": ">=0.1.0-rc.1 <0.2.0-0",
+    "profiles": [
+      "web"
+    ],
+    "desktop": "unknown"
+  },
+  "filesInspected": [
+    "package.json",
+    "cordis.patch.yml"
+  ],
+  "findings": [],
+  "disclaimer": "Static evidence is not a complete audit and not a runtime sandbox."
+}

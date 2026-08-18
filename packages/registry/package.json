@@ -1,0 +1,35 @@
+{
+  "name": "@dsh-store/registry",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "description": "Load, lint, and query the DSH Store git registry.",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "data"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node ./scripts/bundle-registry.mjs",
+    "prepack": "pnpm build",
+    "test": "tsc -p tsconfig.json && node ./scripts/bundle-registry.mjs && node --test dist/*.test.js",
+    "lint:registry": "tsc -p tsconfig.json && node dist/lint-cli.js",
+    "rankings": "tsc -p tsconfig.json && node dist/write-rankings.js"
+  },
+  "dependencies": {
+    "@dsh-store/protocol": "workspace:*",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "typescript": "^5.9.2"
+  }
+}

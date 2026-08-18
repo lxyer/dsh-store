@@ -1,0 +1,12 @@
+{
+  "name": "@dsh-store/fixture-client-only",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Negative fixture: dsh.client only, no dsh.bundle. Installing it must yield inert.",
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": ["@deepseek-ai/dsh-client-runtime"]
+    }
+  }
+}

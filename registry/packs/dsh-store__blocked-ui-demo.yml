@@ -1,0 +1,16 @@
+id: "pack:dsh-store/blocked-ui-demo"
+version: 0.0.1
+title:
+  zh: 含 blocked 条目的反例包
+  en: Pack with a blocked entry
+kind: official
+profileTarget: web
+entries:
+  - ref: "github:linxin666/dsh-web-ui-all"
+    version: "npm:@linxin666/dsh-web-ui-all@0.0.0"
+    role: required
+installPolicy:
+  stopOnBlocked: true
+  requirePassport: true
+  allowCandidate: false
+completeness: partial

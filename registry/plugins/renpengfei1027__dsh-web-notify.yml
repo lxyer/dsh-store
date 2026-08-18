@@ -1,0 +1,53 @@
+schemaVersion: 1
+id: "github:renpengfei1027/dsh-web-notify"
+publisher: renpengfei1027
+npmName: dsh-web-notify
+title:
+  zh: Web Notify
+  en: Web Notify
+description:
+  zh: Web 通知插件，补上本机 web profile 的通知缺口。
+  en: Web notification plugin that can fill a notify gap on the local web profile.
+fetchedAt: "2026-08-17T05:03:06Z"
+sourceCommit: 63498d970df877584b20f1462e96fe92016c5f16
+awesomeCategory: notify
+scenes:
+  - cap.scene.we-media
+trustState: installable
+sources:
+  - discovered
+stars:
+  count: 0
+  fetchedAt: "2026-08-17T05:03:06Z"
+  source: "plugin-hub /api/plugins@2026-08-17T00:00:55.669Z"
+repository: "https://github.com/renpengfei1027/dsh-web-notify"
+license: MIT
+versions:
+  - id: "npm:dsh-web-notify@0.1.4"
+    pluginId: "github:renpengfei1027/dsh-web-notify"
+    releasedAt: "2026-08-17T05:03:06Z"
+    yanked: false
+    hasBundle: true
+    hasClient: true
+    lifecycleScripts: []
+    passportId: "passport:npm:dsh-web-notify@0.1.4:scanner-2"
+    capabilityClaims:
+      - cap.product.notify
+    compatibility:
+      dshRange: ">=0.1.0-rc.1 <0.2.0-0"
+      profiles:
+        - web
+      desktop: unknown
+      testedDsh:
+        - untested
+    installTarget:
+      pluginId: "github:renpengfei1027/dsh-web-notify"
+      versionId: "npm:dsh-web-notify@0.1.4"
+      packageName: dsh-web-notify
+      subpath: null
+      profile: web
+      requiresBuildPermission: false
+      expectedBundle: true
+      passportId: "passport:npm:dsh-web-notify@0.1.4:scanner-2"
+      lockedSpec: "dsh-web-notify@0.1.4"
+defaultVersionId: "npm:dsh-web-notify@0.1.4"
