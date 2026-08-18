@@ -1,6 +1,6 @@
 {
   "name": "@dsh-store/plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "type": "module",
   "description": "In-app DSH Store host plugin. Registers settings.plugins.tab only.",

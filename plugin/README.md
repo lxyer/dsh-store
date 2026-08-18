@@ -5,7 +5,7 @@ In-app DSH Store host.
 Public install (immutable GitHub Release tarball):
 
 ```bash
-dsh plugin --profile web add https://github.com/lxyer/dsh-store/releases/download/v0.1.0/dsh-store-plugin-0.1.0.tgz
+dsh plugin --profile web add https://github.com/lxyer/dsh-store/releases/download/v0.1.1/dsh-store-plugin-0.1.1.tgz
 ```
 
 Then restart `dsh web`. Settings → Plugins will show DSH Store / Installed / Gaps.

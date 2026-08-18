@@ -53,7 +53,7 @@ Open `http://127.0.0.1:4173`. Search queries are part of the URL:
 ## Install the host plugin
 
 ```bash
-dsh plugin --profile web add https://github.com/lxyer/dsh-store/releases/download/v0.1.0/dsh-store-plugin-0.1.0.tgz
+dsh plugin --profile web add https://github.com/lxyer/dsh-store/releases/download/v0.1.1/dsh-store-plugin-0.1.1.tgz
 ```
 
 Restart `dsh web` afterwards. Do not use `latest` or a branch. After npm publish, the command becomes `dsh plugin --profile web add @dsh-store/plugin@0.1.0`.

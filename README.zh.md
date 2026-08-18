@@ -53,7 +53,7 @@ pnpm --filter @dsh-store/site start
 ## 安装宿主插件
 
 ```bash
-dsh plugin --profile web add https://github.com/lxyer/dsh-store/releases/download/v0.1.0/dsh-store-plugin-0.1.0.tgz
+dsh plugin --profile web add https://github.com/lxyer/dsh-store/releases/download/v0.1.1/dsh-store-plugin-0.1.1.tgz
 ```
 
 然后重启 `dsh web`。不要用 `latest` 或分支。npm 发布后改成 `dsh plugin --profile web add @dsh-store/plugin@0.1.0`。

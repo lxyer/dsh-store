@@ -52,7 +52,7 @@ pnpm --filter @dsh-store/plugin publish --access public
 在 npm org 还没登录前，对外安装走 GitHub Release 的预构建 tarball：
 
 ```bash
-dsh plugin --profile web add https://github.com/lxyer/dsh-store/releases/download/v0.1.0/dsh-store-plugin-0.1.0.tgz
+dsh plugin --profile web add https://github.com/lxyer/dsh-store/releases/download/v0.1.1/dsh-store-plugin-0.1.1.tgz
 ```
 
 打包：
