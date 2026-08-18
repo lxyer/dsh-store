@@ -47,9 +47,13 @@ pnpm --filter @dsh-store/scanner publish --access public
 pnpm --filter @dsh-store/plugin publish --access public
 ```
 
-发布后安装命令必须钉死版本，例如 `@dsh-store/plugin@0.1.0`。
+当前已发布：`@tech2077/dsh-store-plugin@0.1.1`。安装命令必须钉死版本：
 
-在 npm org 还没登录前，对外安装走 GitHub Release 的预构建 tarball：
+```bash
+dsh plugin --profile web add @tech2077/dsh-store-plugin@0.1.1
+```
+
+备用 GitHub Release tarball：
 
 ```bash
 dsh plugin --profile web add https://github.com/lxyer/dsh-store/releases/download/v0.1.1/dsh-store-plugin-0.1.1.tgz

@@ -1,16 +1,14 @@
-# `@dsh-store/plugin`
+# `@tech2077/dsh-store-plugin`
 
-In-app DSH Store host.
-
-Public install (immutable GitHub Release tarball):
+In-app DSH Store host. Published as `@tech2077/dsh-store-plugin@0.1.1`.
 
 ```bash
-dsh plugin --profile web add https://github.com/lxyer/dsh-store/releases/download/v0.1.1/dsh-store-plugin-0.1.1.tgz
+dsh plugin --profile web add @tech2077/dsh-store-plugin@0.1.1
 ```
 
 Then restart `dsh web`. Settings → Plugins will show DSH Store / Installed / Gaps.
 
-Until `@dsh-store/plugin` is on npm, do not use `latest` or a git branch.
+Do not use `latest` or a git branch. Fallback: `https://github.com/lxyer/dsh-store/releases/download/v0.1.1/dsh-store-plugin-0.1.1.tgz`.
 
 ## Contract
 
