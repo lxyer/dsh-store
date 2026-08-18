@@ -8,6 +8,24 @@ const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const staging = join(root, ".tmp/plugin-release");
 const outDir = join(root, ".tmp/dist");
 
+function rewriteSpecifiers(dir, replacements) {
+  for (const name of readdirSync(dir)) {
+    const full = join(dir, name);
+    if (statSync(full).isDirectory()) {
+      rewriteSpecifiers(full, replacements);
+      continue;
+    }
+    if (!name.endsWith(".js") && !name.endsWith(".d.ts")) continue;
+    let text = readFileSync(full, "utf8");
+    const before = text;
+    for (const [from, to] of Object.entries(replacements)) {
+      text = text.replaceAll(`from "${from}"`, `from "${to}"`);
+      text = text.replaceAll(`from '${from}'`, `from '${to}'`);
+    }
+    if (text !== before) writeFileSync(full, text);
+  }
+}
+
 function stripTests(dir) {
   for (const name of readdirSync(dir)) {
     const full = join(dir, name);
@@ -47,33 +65,32 @@ cpSync(join(root, "plugin/cordis.patch.yml"), join(staging, "cordis.patch.yml"))
 cpSync(join(root, "plugin/README.md"), join(staging, "README.md"));
 cpSync(join(root, "LICENSE"), join(staging, "LICENSE"));
 
-mkdirSync(join(staging, "vendor/@dsh-store/protocol"), { recursive: true });
-mkdirSync(join(staging, "vendor/@dsh-store/registry"), { recursive: true });
-cpSync(join(root, "protocol/dist"), join(staging, "vendor/@dsh-store/protocol/dist"), { recursive: true });
-stripTests(join(staging, "vendor/@dsh-store/protocol/dist"));
-cpSync(join(root, "protocol/schemas"), join(staging, "vendor/@dsh-store/protocol/schemas"), { recursive: true });
-writeFileSync(
-  join(staging, "vendor/@dsh-store/protocol/package.json"),
-  `${JSON.stringify({ ...protocolPkg, scripts: undefined, devDependencies: undefined }, null, 2)}\n`,
-);
-cpSync(join(root, "packages/registry/dist"), join(staging, "vendor/@dsh-store/registry/dist"), { recursive: true });
-stripTests(join(staging, "vendor/@dsh-store/registry/dist"));
+mkdirSync(join(staging, "vendor/protocol"), { recursive: true });
+mkdirSync(join(staging, "vendor/registry"), { recursive: true });
+cpSync(join(root, "protocol/dist"), join(staging, "vendor/protocol"), { recursive: true });
+stripTests(join(staging, "vendor/protocol"));
+cpSync(join(root, "protocol/schemas"), join(staging, "vendor/protocol/schemas"), { recursive: true });
+cpSync(join(root, "packages/registry/dist"), join(staging, "vendor/registry"), { recursive: true });
+stripTests(join(staging, "vendor/registry"));
 if (existsSync(join(root, "packages/registry/data"))) {
-  cpSync(join(root, "packages/registry/data"), join(staging, "vendor/@dsh-store/registry/data"), { recursive: true });
+  cpSync(join(root, "packages/registry/data"), join(staging, "vendor/registry/data"), { recursive: true });
 }
-writeFileSync(
-  join(staging, "vendor/@dsh-store/registry/package.json"),
-  `${JSON.stringify(
-    {
-      ...registryPkg,
-      scripts: undefined,
-      devDependencies: undefined,
-      dependencies: { "@dsh-store/protocol": "0.1.0", yaml: registryPkg.dependencies.yaml },
-    },
-    null,
-    2,
-  )}\n`,
-);
+
+rewriteSpecifiers(join(staging, "dist/core"), {
+  "@dsh-store/protocol": "../../vendor/protocol/index.js",
+  "@dsh-store/registry": "../../vendor/registry/index.js",
+});
+rewriteSpecifiers(join(staging, "dist/host"), {
+  "@dsh-store/protocol": "../../vendor/protocol/index.js",
+  "@dsh-store/registry": "../../vendor/registry/index.js",
+});
+rewriteSpecifiers(join(staging, "dist/cli"), {
+  "@dsh-store/protocol": "../../vendor/protocol/index.js",
+  "@dsh-store/registry": "../../vendor/registry/index.js",
+});
+rewriteSpecifiers(join(staging, "vendor/registry"), {
+  "@dsh-store/protocol": "../protocol/index.js",
+});
 
 const releasePkg = {
   name: pluginPkg.name,
@@ -87,8 +104,6 @@ const releasePkg = {
   publishConfig: pluginPkg.publishConfig,
   dsh: pluginPkg.dsh,
   dependencies: {
-    "@dsh-store/protocol": "file:./vendor/@dsh-store/protocol",
-    "@dsh-store/registry": "file:./vendor/@dsh-store/registry",
     yaml: registryPkg.dependencies.yaml,
     ajv: protocolPkg.dependencies.ajv,
     "ajv-formats": protocolPkg.dependencies["ajv-formats"],
